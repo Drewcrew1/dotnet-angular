@@ -104,16 +104,32 @@
         <e p="README.md" t="Include" />
         <e p="src" t="Include">
           <e p="app" t="Include">
+            <e p="_services" t="Include">
+              <e p="auth.service.spec.ts" t="Include" />
+              <e p="auth.service.ts" t="Include" />
+            </e>
             <e p="app.component.css" t="Include" />
             <e p="app.component.html" t="Include" />
             <e p="app.component.spec.ts" t="Include" />
             <e p="app.component.ts" t="Include" />
             <e p="app.module.ts" t="Include" />
-            <e p="value" t="Include">
-              <e p="value.component.css" t="Include" />
-              <e p="value.component.html" t="Include" />
-              <e p="value.component.spec.ts" t="Include" />
-              <e p="value.component.ts" t="Include" />
+            <e p="home" t="Include">
+              <e p="home.component.css" t="Include" />
+              <e p="home.component.html" t="Include" />
+              <e p="home.component.spec.ts" t="Include" />
+              <e p="home.component.ts" t="Include" />
+            </e>
+            <e p="nav" t="Include">
+              <e p="nav.component.css" t="Include" />
+              <e p="nav.component.html" t="Include" />
+              <e p="nav.component.spec.ts" t="Include" />
+              <e p="nav.component.ts" t="Include" />
+            </e>
+            <e p="register" t="Include">
+              <e p="register.component.css" t="Include" />
+              <e p="register.component.html" t="Include" />
+              <e p="register.component.spec.ts" t="Include" />
+              <e p="register.component.ts" t="Include" />
             </e>
           </e>
           <e p="assets" t="Include">
