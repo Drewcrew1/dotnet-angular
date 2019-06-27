@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DatingApp-SPA\src\app\_services" />
+    <TypeScriptCompile Include="DatingApp-SPA\src\app\_services\error.inteceptor.ts" />
   </ItemGroup>
 
 </Project>

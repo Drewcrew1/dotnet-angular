@@ -107,6 +107,7 @@
             <e p="_services" t="Include">
               <e p="auth.service.spec.ts" t="Include" />
               <e p="auth.service.ts" t="Include" />
+              <e p="error.inteceptor.ts" t="Include" />
             </e>
             <e p="app.component.css" t="Include" />
             <e p="app.component.html" t="Include" />
@@ -159,6 +160,9 @@
       <e p="Dtos" t="Include">
         <e p="UserForLoginDto.cs" t="Include" />
         <e p="UserForRegisterDto.cs" t="Include" />
+      </e>
+      <e p="helpers" t="Include">
+        <e p="Extensions.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20190614172952_InitialCreate.cs" t="Include" />
