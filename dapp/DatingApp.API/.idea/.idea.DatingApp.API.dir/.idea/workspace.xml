@@ -2,28 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67976bf0-ce43-4745-b86e-3442007e128b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DatingApp.API/Models/Photo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/ValuesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/DataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Value.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/Data/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/_services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/_services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/register/register.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/DatingApp.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DatingApp.API/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AuthRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/IAuthRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/.idea/.idea.DatingApp.API.dir/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/.idea/.idea.Controllers.dir/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/.idea/.idea.Controllers.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/.idea/.idea.Controllers.dir/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/.idea/.idea.Controllers.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/.idea/.idea.Controllers.dir/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/AuthController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Controllers/ValuesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/.idea/.idea.Data.dir/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/.idea/.idea.Data.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/.idea/.idea.Data.dir/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/.idea/.idea.Data.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/.idea/.idea.Data.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/.idea/.idea.Data.dir/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/AuthRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/DataContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Data/IAuthRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/_services/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/_services/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/_services/error.inteceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/nav/nav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/register/register.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/app/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp-SPA/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/DatingApp.API.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Dtos/UserForLoginDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Dtos/UserForRegisterDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Migrations/20190614172952_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Migrations/20190614172952_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Migrations/20190617165707_AddedUserEntity.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Migrations/20190617165707_AddedUserEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Migrations/DataContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Models/Photo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Models/Value.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatingApp.API/helpers/Extensions.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="375">
               <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <marker date="1580422196000" expanded="true" signature="6:465" ph="..." />
@@ -55,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/ValuesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="345">
               <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <marker date="1580338792000" expanded="true" signature="6:215" ph="..." />
@@ -72,13 +142,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1580424114000" expanded="true" signature="30:264" ph="{...}" />
+                <marker date="1580424114000" expanded="true" signature="54:262" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,9 +188,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/DataContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="45" />
+              <folding>
+                <marker date="1580424158000" expanded="true" signature="6:64" ph="..." />
+                <marker date="1580424158000" expanded="true" signature="94:364" ph="{...}" />
+                <marker date="1580424158000" expanded="true" signature="137:362" ph="{...}" />
+                <marker date="1580424158000" expanded="true" signature="225:258" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/IAuthRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <marker date="1580426294000" expanded="true" signature="6:57" ph="..." />
+                <marker date="1580426294000" expanded="true" signature="87:305" ph="{...}" />
+                <marker date="1580426294000" expanded="true" signature="126:303" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/AuthRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <marker date="1580435332000" expanded="true" signature="6:57" ph="..." />
+                <marker date="1580435332000" expanded="true" signature="87:1349" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="138:1347" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="242:294" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="360:436" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="500:841" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="949:1210" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="1049:1200" ph="{...}" />
+                <marker date="1580435332000" expanded="true" signature="1265:1341" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="75">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -113,10 +254,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Migrations/20200130225715_AddedUserEntity.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20200130225715_AddedUserEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/IAuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Value.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -126,7 +272,6 @@
       <list>
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Models/Value.cs" />
-        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.ts" />
@@ -135,6 +280,11 @@
         <option value="$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.html" />
         <option value="$PROJECT_DIR$/DatingAppSPA/src/styles.css" />
         <option value="$PROJECT_DIR$/DatingAppSPA/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Models/User.cs" />
+        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
+        <option value="$PROJECT_DIR$/Data/IAuthRepository.cs" />
+        <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
       </list>
     </option>
   </component>
@@ -154,18 +304,43 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="DatingApp.API" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="DatingApp.API" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Data" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DatingApp.API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DatingApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DatingApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -240,12 +415,13 @@
       <updated>1575935220142</updated>
       <workItem from="1575935226334" duration="6901000" />
       <workItem from="1576604574051" duration="1127000" />
-      <workItem from="1580338618015" duration="6246000" />
+      <workItem from="1580338618015" duration="7763000" />
+      <workItem from="1580424920483" duration="2538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14274000" />
+    <option name="totallyTimeSpent" value="18329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,10 +436,9 @@
     <frame x="1909" y="-11" width="1388" height="734" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.096066564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09757943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32035398" />
@@ -278,8 +453,10 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.34246576" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.34246576" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="TypeScript" order="16" />
+      <window_info anchor="right" id="Designer Toolbox" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,19 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/DataContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1576016670000" expanded="true" signature="6:64" ph="..." />
-            <marker date="1576016670000" expanded="true" signature="94:315" ph="{...}" />
-            <marker date="1576016670000" expanded="true" signature="137:313" ph="{...}" />
-            <marker date="1576016670000" expanded="true" signature="225:258" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/WeatherForecastController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -386,51 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <marker date="1580338792000" expanded="true" signature="6:215" ph="..." />
-            <marker date="1580338792000" expanded="true" signature="252:1345" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="357:1343" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="463:515" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="612:725" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="838:972" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="1069:1089" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="1201:1221" ph="{...}" />
-            <marker date="1580338792000" expanded="true" signature="1317:1337" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <marker date="1580422196000" expanded="true" signature="6:465" ph="..." />
-            <marker date="1580422196000" expanded="true" signature="490:1716" ph="{...}" />
-            <marker date="1580422196000" expanded="true" signature="517:1714" ph="{...}" />
-            <marker date="1580422196000" expanded="true" signature="576:639" ph="{...}" />
-            <marker date="1580422196000" expanded="true" signature="862:1075" ph="{...}" />
-            <marker date="1580422196000" expanded="true" signature="1263:1708" ph="{...}" />
-            <marker date="1580422196000" expanded="true" signature="1310:1387" ph="{...}" />
-            <marker date="1580422196000" expanded="true" signature="1637:1696" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -452,15 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DatingAppSPA/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -475,12 +585,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DatingApp.API.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <marker date="1580422196000" expanded="true" signature="6:465" ph="..." />
+            <marker date="1580422196000" expanded="true" signature="490:1716" ph="{...}" />
+            <marker date="1580422196000" expanded="true" signature="517:1714" ph="{...}" />
+            <marker date="1580422196000" expanded="true" signature="576:639" ph="{...}" />
+            <marker date="1580422196000" expanded="true" signature="862:1075" ph="{...}" />
+            <marker date="1580422196000" expanded="true" signature="1263:1708" ph="{...}" />
+            <marker date="1580422196000" expanded="true" signature="1310:1387" ph="{...}" />
+            <marker date="1580422196000" expanded="true" signature="1637:1696" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <marker date="1580338792000" expanded="true" signature="6:215" ph="..." />
+            <marker date="1580338792000" expanded="true" signature="252:1345" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="357:1343" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="463:515" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="612:725" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="838:972" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="1069:1089" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="1201:1221" ph="{...}" />
+            <marker date="1580338792000" expanded="true" signature="1317:1337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1580424114000" expanded="true" signature="30:264" ph="{...}" />
+            <marker date="1580424114000" expanded="true" signature="54:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/value/value.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatingAppSPA/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Migrations/20200130225715_AddedUserEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1580425036000" expanded="false" signature="6:61" ph="..." />
+            <marker date="1580425036000" expanded="true" signature="97:1047" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="152:1045" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="228:874" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="366:726" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="782:862" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="947:1039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="WinFormsEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Migrations/20200130225715_AddedUserEntity.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <marker date="1580425036000" expanded="false" signature="28:259" ph="..." />
+            <marker date="1580425036000" expanded="true" signature="295:1730" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="418:1728" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="500:1722" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="711:1256" ph="{...}" />
+            <marker date="1580425036000" expanded="true" signature="1343:1677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DataContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <marker date="1580424158000" expanded="true" signature="6:64" ph="..." />
+            <marker date="1580424158000" expanded="true" signature="94:364" ph="{...}" />
+            <marker date="1580424158000" expanded="true" signature="137:362" ph="{...}" />
+            <marker date="1580424158000" expanded="true" signature="225:258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/IAuthRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1580426294000" expanded="true" signature="6:57" ph="..." />
+            <marker date="1580426294000" expanded="true" signature="87:305" ph="{...}" />
+            <marker date="1580426294000" expanded="true" signature="126:303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/AuthRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <marker date="1580435332000" expanded="true" signature="6:57" ph="..." />
+            <marker date="1580435332000" expanded="true" signature="87:1349" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="138:1347" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="242:294" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="360:436" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="500:841" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="949:1210" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="1049:1200" ph="{...}" />
+            <marker date="1580435332000" expanded="true" signature="1265:1341" ph="{...}" />
           </folding>
         </state>
       </provider>
