@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\drew\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\drew\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="E:\dotnet\DatingApp.API" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="AuthController.cs" t="Include" />
+        <e p="ValuesController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="AuthRepository.cs" t="Include" />
+        <e p="DataContext.cs" t="Include" />
+        <e p="IAuthRepository.cs" t="Include" />
+      </e>
+      <e p="DatingApp-SPA" t="Include">
+        <e p=".editorconfig" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="angular.json" t="Include" />
+        <e p="e2e" t="Include">
+          <e p="protractor.conf.js" t="Include" />
+          <e p="src" t="Include">
+            <e p="app.e2e-spec.ts" t="Include" />
+            <e p="app.po.ts" t="Include" />
+          </e>
+          <e p="tsconfig.e2e.json" t="Include" />
+        </e>
+        <e p="node_modules\@angular\animations" t="IncludeRecursive" />
+        <e p="node_modules\@angular\cli" t="IncludeRecursive" />
+        <e p="node_modules\@angular\common" t="IncludeRecursive" />
+        <e p="node_modules\@angular\compiler" t="IncludeRecursive" />
+        <e p="node_modules\@angular\compiler-cli" t="IncludeRecursive" />
+        <e p="node_modules\@angular\core" t="IncludeRecursive" />
+        <e p="node_modules\@angular\forms" t="IncludeRecursive" />
+        <e p="node_modules\@angular\http" t="IncludeRecursive" />
+        <e p="node_modules\@angular\material" t="IncludeRecursive" />
+        <e p="node_modules\@angular\platform-browser" t="IncludeRecursive" />
+        <e p="node_modules\@angular\platform-browser-dynamic" t="IncludeRecursive" />
+        <e p="node_modules\@angular\router" t="IncludeRecursive" />
+        <e p="node_modules\@angular-devkit\build-angular" t="IncludeRecursive" />
+        <e p="node_modules\@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="jasmine" t="IncludeRecursive" />
+          <e p="jasminewd2" t="IncludeRecursive" />
+          <e p="minimatch" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+        </e>
+        <e p="node_modules\bootstrap" t="IncludeRecursive" />
+        <e p="node_modules\codelyzer" t="IncludeRecursive" />
+        <e p="node_modules\core-js" t="IncludeRecursive" />
+        <e p="node_modules\font-awesome" t="IncludeRecursive" />
+        <e p="node_modules\jasmine-core" t="IncludeRecursive" />
+        <e p="node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
+        <e p="node_modules\karma" t="IncludeRecursive" />
+        <e p="node_modules\karma-chrome-launcher" t="IncludeRecursive" />
+        <e p="node_modules\karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+        <e p="node_modules\karma-jasmine" t="IncludeRecursive" />
+        <e p="node_modules\karma-jasmine-html-reporter" t="IncludeRecursive" />
+        <e p="node_modules\protractor" t="IncludeRecursive" />
+        <e p="node_modules\rxjs" t="IncludeRecursive" />
+        <e p="node_modules\ts-node" t="IncludeRecursive" />
+        <e p="node_modules\tslint" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.promise.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\zone.js" t="IncludeRecursive" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="app" t="Include">
+            <e p="_services" t="Include">
+              <e p="auth.service.spec.ts" t="Include" />
+              <e p="auth.service.ts" t="Include" />
+              <e p="error.inteceptor.ts" t="Include" />
+            </e>
+            <e p="app.component.css" t="Include" />
+            <e p="app.component.html" t="Include" />
+            <e p="app.component.spec.ts" t="Include" />
+            <e p="app.component.ts" t="Include" />
+            <e p="app.module.ts" t="Include" />
+            <e p="home" t="Include">
+              <e p="home.component.css" t="Include" />
+              <e p="home.component.html" t="Include" />
+              <e p="home.component.spec.ts" t="Include" />
+              <e p="home.component.ts" t="Include" />
+            </e>
+            <e p="nav" t="Include">
+              <e p="nav.component.css" t="Include" />
+              <e p="nav.component.html" t="Include" />
+              <e p="nav.component.spec.ts" t="Include" />
+              <e p="nav.component.ts" t="Include" />
+            </e>
+            <e p="register" t="Include">
+              <e p="register.component.css" t="Include" />
+              <e p="register.component.html" t="Include" />
+              <e p="register.component.spec.ts" t="Include" />
+              <e p="register.component.ts" t="Include" />
+            </e>
+          </e>
+          <e p="assets" t="Include">
+            <e p=".gitkeep" t="Include" />
+          </e>
+          <e p="browserslist" t="Include" />
+          <e p="environments" t="Include">
+            <e p="environment.prod.ts" t="Include" />
+            <e p="environment.ts" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="karma.conf.js" t="Include" />
+          <e p="main.ts" t="Include" />
+          <e p="polyfills.ts" t="Include" />
+          <e p="styles.css" t="Include" />
+          <e p="test.ts" t="Include" />
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="tslint.json" t="Include" />
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="DatingApp.API.csproj" t="IncludeRecursive" />
+      <e p="DatingApp.db" t="Include" />
+      <e p="Dtos" t="Include">
+        <e p="UserForLoginDto.cs" t="Include" />
+        <e p="UserForRegisterDto.cs" t="Include" />
+      </e>
+      <e p="helpers" t="Include">
+        <e p="Extensions.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20190614172952_InitialCreate.cs" t="Include" />
+        <e p="20190614172952_InitialCreate.Designer.cs" t="Include" />
+        <e p="20190617165707_AddedUserEntity.cs" t="Include" />
+        <e p="20190617165707_AddedUserEntity.Designer.cs" t="Include" />
+        <e p="DataContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="User.cs" t="Include" />
+        <e p="Value.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="MCD" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DatingApp.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+    </e>
+  </component>
+</project>
