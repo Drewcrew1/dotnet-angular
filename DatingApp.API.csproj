@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DatingAppSPA\src\app\_services" />
+    <TypeScriptCompile Include="DatingAppSPA\src\app\_services\Error.interceptor.ts" />
   </ItemGroup>
 
 </Project>
