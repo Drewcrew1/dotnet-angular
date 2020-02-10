@@ -37,6 +37,39 @@
         </e>
         <e p="karma.conf.js" t="Include" />
         <e p="node_modules" t="Include">
+          <e p=".staging" t="Include">
+            <e p="bindings-80b05a9f" t="Include" />
+            <e p="brace-expansion-59a37fa1" t="Include" />
+            <e p="chownr-7acbfd7d" t="Include" />
+            <e p="console-control-strings-1b4c39cf" t="Include" />
+            <e p="file-uri-to-path-a5611159" t="Include" />
+            <e p="fsevents-1b787b26" t="Include" />
+            <e p="fsevents-53a9a4d7" t="Include" />
+            <e p="fsevents-66df3f18" t="Include" />
+            <e p="fsevents-6b3d4b24" t="Include" />
+            <e p="fsevents-99d826f0" t="Include" />
+            <e p="gauge-57207a7b" t="Include" />
+            <e p="glob-b0802dc4" t="Include" />
+            <e p="has-unicode-b90d291e" t="Include" />
+            <e p="minimatch-0e4497ba" t="Include" />
+            <e p="minimist-5ce3b493" t="Include" />
+            <e p="nan-82196daa" t="Include" />
+            <e p="ngx-bootstrap-0ae5ee0e" t="Include" />
+            <e p="nopt-ae3de6e8" t="Include" />
+            <e p="npm-bundled-e30d6bd4" t="Include" />
+            <e p="npmlog-393a089a" t="Include" />
+            <e p="number-is-nan-b551bb02" t="Include" />
+            <e p="osenv-75dfd38b" t="Include" />
+            <e p="path-is-absolute-8d72919d" t="Include" />
+            <e p="safe-buffer-71f54125" t="Include" />
+            <e p="safer-buffer-e4ffdf6f" t="Include" />
+            <e p="semver-e866202e" t="Include" />
+            <e p="string_decoder-742ceb6c" t="Include" />
+            <e p="strip-ansi-93f8ef10" t="Include" />
+            <e p="wide-align-b9d98cc9" t="Include" />
+            <e p="wrappy-81986189" t="Include" />
+            <e p="yallist-40397ce5" t="Include" />
+          </e>
           <e p="@angular" t="Include">
             <e p="animations" t="IncludeRecursive" />
             <e p="cli" t="IncludeRecursive" />
@@ -54,6 +87,65 @@
             <e p="router" t="IncludeRecursive" />
           </e>
           <e p="@angular-devkit\build-angular" t="IncludeRecursive" />
+          <e p="@auth0" t="Include">
+            <e p="angular-jwt" t="IncludeRecursive">
+              <e p="auth0-angular-jwt.d.ts" t="Include" />
+              <e p="auth0-angular-jwt.metadata.json" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="auth0-angular-jwt.umd.js" t="Include" />
+                <e p="auth0-angular-jwt.umd.js.map" t="Include" />
+                <e p="auth0-angular-jwt.umd.min.js" t="Include" />
+                <e p="auth0-angular-jwt.umd.min.js.map" t="Include" />
+              </e>
+              <e p="CHANGELOG.md" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="auth0-angular-jwt.js" t="Include" />
+                <e p="auth0-angular-jwt.ngsummary.json" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="index.ngsummary.json" t="Include" />
+                <e p="lib" t="Include">
+                  <e p="angular-jwt.module.js" t="Include" />
+                  <e p="angular-jwt.module.ngfactory.js" t="Include" />
+                  <e p="angular-jwt.module.ngsummary.json" t="Include" />
+                  <e p="jwt.interceptor.js" t="Include" />
+                  <e p="jwt.interceptor.ngsummary.json" t="Include" />
+                  <e p="jwthelper.service.js" t="Include" />
+                  <e p="jwthelper.service.ngsummary.json" t="Include" />
+                  <e p="jwtoptions.token.js" t="Include" />
+                  <e p="jwtoptions.token.ngsummary.json" t="Include" />
+                </e>
+              </e>
+              <e p="esm5" t="Include">
+                <e p="auth0-angular-jwt.js" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="lib" t="Include">
+                  <e p="angular-jwt.module.js" t="Include" />
+                  <e p="jwt.interceptor.js" t="Include" />
+                  <e p="jwthelper.service.js" t="Include" />
+                  <e p="jwtoptions.token.js" t="Include" />
+                </e>
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="auth0-angular-jwt.js" t="Include" />
+                <e p="auth0-angular-jwt.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="auth0-angular-jwt.js" t="Include" />
+                <e p="auth0-angular-jwt.js.map" t="Include" />
+              </e>
+              <e p="index.d.ts" t="Include" />
+              <e p="lib" t="Include">
+                <e p="angular-jwt.module.d.ts" t="Include" />
+                <e p="angular-jwt.module.ngfactory.d.ts" t="Include" />
+                <e p="jwt.interceptor.d.ts" t="Include" />
+                <e p="jwthelper.service.d.ts" t="Include" />
+                <e p="jwtoptions.token.d.ts" t="Include" />
+              </e>
+              <e p="LICENSE" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+          </e>
           <e p="@types" t="IncludeRecursive">
             <e p="events" t="IncludeRecursive" />
             <e p="jasmine" t="IncludeRecursive" />
@@ -138,6 +230,1786 @@
           <e p="karma-coverage-istanbul-reporter" t="IncludeRecursive" />
           <e p="karma-jasmine" t="IncludeRecursive" />
           <e p="karma-jasmine-html-reporter" t="IncludeRecursive" />
+          <e p="ngx-bootstrap" t="IncludeRecursive">
+            <e p="accordion" t="Include">
+              <e p="accordion-group.component.d.ts" t="Include" />
+              <e p="accordion.component.d.ts" t="Include" />
+              <e p="accordion.config.d.ts" t="Include" />
+              <e p="accordion.css" t="Include" />
+              <e p="accordion.css.map" t="Include" />
+              <e p="accordion.module.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-accordion.umd.js" t="Include" />
+                <e p="ngx-bootstrap-accordion.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-accordion.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-accordion.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="accordion-group.component.js" t="Include" />
+                <e p="accordion.component.js" t="Include" />
+                <e p="accordion.config.js" t="Include" />
+                <e p="accordion.module.js" t="Include" />
+                <e p="ngx-bootstrap-accordion.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="accordion-group.component.js" t="Include" />
+                <e p="accordion.component.js" t="Include" />
+                <e p="accordion.config.js" t="Include" />
+                <e p="accordion.module.js" t="Include" />
+                <e p="ngx-bootstrap-accordion.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-accordion.js" t="Include" />
+                <e p="ngx-bootstrap-accordion.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-accordion.js" t="Include" />
+                <e p="ngx-bootstrap-accordion.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-accordion.d.ts" t="Include" />
+              <e p="ngx-bootstrap-accordion.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="alert" t="Include">
+              <e p="alert.component.d.ts" t="Include" />
+              <e p="alert.config.d.ts" t="Include" />
+              <e p="alert.module.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-alert.umd.js" t="Include" />
+                <e p="ngx-bootstrap-alert.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-alert.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-alert.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="alert.component.js" t="Include" />
+                <e p="alert.config.js" t="Include" />
+                <e p="alert.module.js" t="Include" />
+                <e p="ngx-bootstrap-alert.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="alert.component.js" t="Include" />
+                <e p="alert.config.js" t="Include" />
+                <e p="alert.module.js" t="Include" />
+                <e p="ngx-bootstrap-alert.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-alert.js" t="Include" />
+                <e p="ngx-bootstrap-alert.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-alert.js" t="Include" />
+                <e p="ngx-bootstrap-alert.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-alert.d.ts" t="Include" />
+              <e p="ngx-bootstrap-alert.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="bundles" t="Include">
+              <e p="ngx-bootstrap.umd.js" t="Include" />
+              <e p="ngx-bootstrap.umd.js.map" t="Include" />
+              <e p="ngx-bootstrap.umd.min.js" t="Include" />
+              <e p="ngx-bootstrap.umd.min.js.map" t="Include" />
+            </e>
+            <e p="buttons" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-buttons.umd.js" t="Include" />
+                <e p="ngx-bootstrap-buttons.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-buttons.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-buttons.umd.min.js.map" t="Include" />
+              </e>
+              <e p="button-checkbox.directive.d.ts" t="Include" />
+              <e p="button-radio-group.directive.d.ts" t="Include" />
+              <e p="button-radio.directive.d.ts" t="Include" />
+              <e p="buttons.module.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="button-checkbox.directive.js" t="Include" />
+                <e p="button-radio-group.directive.js" t="Include" />
+                <e p="button-radio.directive.js" t="Include" />
+                <e p="buttons.module.js" t="Include" />
+                <e p="ngx-bootstrap-buttons.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="button-checkbox.directive.js" t="Include" />
+                <e p="button-radio-group.directive.js" t="Include" />
+                <e p="button-radio.directive.js" t="Include" />
+                <e p="buttons.module.js" t="Include" />
+                <e p="ngx-bootstrap-buttons.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-buttons.js" t="Include" />
+                <e p="ngx-bootstrap-buttons.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-buttons.js" t="Include" />
+                <e p="ngx-bootstrap-buttons.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-buttons.d.ts" t="Include" />
+              <e p="ngx-bootstrap-buttons.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="carousel" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-carousel.umd.js" t="Include" />
+                <e p="ngx-bootstrap-carousel.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-carousel.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-carousel.umd.min.js.map" t="Include" />
+              </e>
+              <e p="carousel.component.d.ts" t="Include" />
+              <e p="carousel.config.d.ts" t="Include" />
+              <e p="carousel.module.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="carousel.component.js" t="Include" />
+                <e p="carousel.config.js" t="Include" />
+                <e p="carousel.module.js" t="Include" />
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-carousel.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="slide.component.js" t="Include" />
+                <e p="utils.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="carousel.component.js" t="Include" />
+                <e p="carousel.config.js" t="Include" />
+                <e p="carousel.module.js" t="Include" />
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-carousel.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="slide.component.js" t="Include" />
+                <e p="utils.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-carousel.js" t="Include" />
+                <e p="ngx-bootstrap-carousel.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-carousel.js" t="Include" />
+                <e p="ngx-bootstrap-carousel.js.map" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-carousel.d.ts" t="Include" />
+              <e p="ngx-bootstrap-carousel.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="slide.component.d.ts" t="Include" />
+              <e p="utils.d.ts" t="Include" />
+            </e>
+            <e p="CHANGELOG.md" t="Include" />
+            <e p="chronos" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-chronos.umd.js" t="Include" />
+                <e p="ngx-bootstrap-chronos.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-chronos.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-chronos.umd.min.js.map" t="Include" />
+              </e>
+              <e p="create" t="Include">
+                <e p="check-overflow.d.ts" t="Include" />
+                <e p="clone.d.ts" t="Include" />
+                <e p="date-from-array.d.ts" t="Include" />
+                <e p="from-anything.d.ts" t="Include" />
+                <e p="from-array.d.ts" t="Include" />
+                <e p="from-object.d.ts" t="Include" />
+                <e p="from-string-and-array.d.ts" t="Include" />
+                <e p="from-string-and-format.d.ts" t="Include" />
+                <e p="from-string.d.ts" t="Include" />
+                <e p="local.d.ts" t="Include" />
+                <e p="parsing-flags.d.ts" t="Include" />
+                <e p="parsing.types.d.ts" t="Include" />
+                <e p="valid.d.ts" t="Include" />
+              </e>
+              <e p="duration" t="Include">
+                <e p="bubble.d.ts" t="Include" />
+                <e p="constructor.d.ts" t="Include" />
+                <e p="create.d.ts" t="Include" />
+                <e p="humanize.d.ts" t="Include" />
+                <e p="valid.d.ts" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="create" t="Include">
+                  <e p="check-overflow.js" t="Include" />
+                  <e p="clone.js" t="Include" />
+                  <e p="date-from-array.js" t="Include" />
+                  <e p="from-anything.js" t="Include" />
+                  <e p="from-array.js" t="Include" />
+                  <e p="from-object.js" t="Include" />
+                  <e p="from-string-and-array.js" t="Include" />
+                  <e p="from-string-and-format.js" t="Include" />
+                  <e p="from-string.js" t="Include" />
+                  <e p="local.js" t="Include" />
+                  <e p="parsing-flags.js" t="Include" />
+                  <e p="parsing.types.js" t="Include" />
+                  <e p="valid.js" t="Include" />
+                </e>
+                <e p="duration" t="Include">
+                  <e p="bubble.js" t="Include" />
+                  <e p="constructor.js" t="Include" />
+                  <e p="create.js" t="Include" />
+                  <e p="humanize.js" t="Include" />
+                  <e p="valid.js" t="Include" />
+                </e>
+                <e p="format" t="Include">
+                  <e p="format.js" t="Include" />
+                </e>
+                <e p="format.js" t="Include" />
+                <e p="i18n" t="Include">
+                  <e p="ar.js" t="Include" />
+                  <e p="bg.js" t="Include" />
+                  <e p="ca.js" t="Include" />
+                  <e p="cs.js" t="Include" />
+                  <e p="da.js" t="Include" />
+                  <e p="de.js" t="Include" />
+                  <e p="en-gb.js" t="Include" />
+                  <e p="es-do.js" t="Include" />
+                  <e p="es-us.js" t="Include" />
+                  <e p="es.js" t="Include" />
+                  <e p="et.js" t="Include" />
+                  <e p="fi.js" t="Include" />
+                  <e p="fr.js" t="Include" />
+                  <e p="gl.js" t="Include" />
+                  <e p="he.js" t="Include" />
+                  <e p="hi.js" t="Include" />
+                  <e p="hr.js" t="Include" />
+                  <e p="hu.js" t="Include" />
+                  <e p="id.js" t="Include" />
+                  <e p="it.js" t="Include" />
+                  <e p="ja.js" t="Include" />
+                  <e p="ko.js" t="Include" />
+                  <e p="lt.js" t="Include" />
+                  <e p="lv.js" t="Include" />
+                  <e p="mn.js" t="Include" />
+                  <e p="nb.js" t="Include" />
+                  <e p="nl-be.js" t="Include" />
+                  <e p="nl.js" t="Include" />
+                  <e p="pl.js" t="Include" />
+                  <e p="pt-br.js" t="Include" />
+                  <e p="ro.js" t="Include" />
+                  <e p="ru.js" t="Include" />
+                  <e p="sk.js" t="Include" />
+                  <e p="sl.js" t="Include" />
+                  <e p="sv.js" t="Include" />
+                  <e p="th.js" t="Include" />
+                  <e p="tr.js" t="Include" />
+                  <e p="uk.js" t="Include" />
+                  <e p="vi.js" t="Include" />
+                  <e p="zh-cn.js" t="Include" />
+                </e>
+                <e p="index.js" t="Include" />
+                <e p="locale" t="Include">
+                  <e p="calendar.js" t="Include" />
+                  <e p="locale.class.js" t="Include" />
+                  <e p="locale.defaults.js" t="Include" />
+                  <e p="locales.js" t="Include" />
+                </e>
+                <e p="moment" t="Include">
+                  <e p="add-subtract.js" t="Include" />
+                  <e p="calendar.js" t="Include" />
+                  <e p="diff.js" t="Include" />
+                  <e p="min-max.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-chronos.js" t="Include" />
+                <e p="parse" t="Include">
+                  <e p="regex.js" t="Include" />
+                  <e p="token.js" t="Include" />
+                </e>
+                <e p="public_api.js" t="Include" />
+                <e p="test" t="Include">
+                  <e p="chain.js" t="Include" />
+                </e>
+                <e p="types.js" t="Include" />
+                <e p="units" t="Include">
+                  <e p="aliases.js" t="Include" />
+                  <e p="constants.js" t="Include" />
+                  <e p="day-of-month.js" t="Include" />
+                  <e p="day-of-week.js" t="Include" />
+                  <e p="day-of-year.js" t="Include" />
+                  <e p="hour.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="millisecond.js" t="Include" />
+                  <e p="minute.js" t="Include" />
+                  <e p="month.js" t="Include" />
+                  <e p="offset.js" t="Include" />
+                  <e p="priorities.js" t="Include" />
+                  <e p="quarter.js" t="Include" />
+                  <e p="second.js" t="Include" />
+                  <e p="timestamp.js" t="Include" />
+                  <e p="timezone.js" t="Include" />
+                  <e p="week-calendar-utils.js" t="Include" />
+                  <e p="week-year.js" t="Include" />
+                  <e p="week.js" t="Include" />
+                  <e p="year.js" t="Include" />
+                </e>
+                <e p="utils" t="Include">
+                  <e p="abs-ceil.js" t="Include" />
+                  <e p="abs-round.js" t="Include" />
+                  <e p="compare-arrays.js" t="Include" />
+                  <e p="date-compare.js" t="Include" />
+                  <e p="date-getters.js" t="Include" />
+                  <e p="date-setters.js" t="Include" />
+                  <e p="defaults.js" t="Include" />
+                  <e p="start-end-of.js" t="Include" />
+                  <e p="type-checks.js" t="Include" />
+                  <e p="zero-fill.js" t="Include" />
+                </e>
+                <e p="utils.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="create" t="Include">
+                  <e p="check-overflow.js" t="Include" />
+                  <e p="clone.js" t="Include" />
+                  <e p="date-from-array.js" t="Include" />
+                  <e p="from-anything.js" t="Include" />
+                  <e p="from-array.js" t="Include" />
+                  <e p="from-object.js" t="Include" />
+                  <e p="from-string-and-array.js" t="Include" />
+                  <e p="from-string-and-format.js" t="Include" />
+                  <e p="from-string.js" t="Include" />
+                  <e p="local.js" t="Include" />
+                  <e p="parsing-flags.js" t="Include" />
+                  <e p="parsing.types.js" t="Include" />
+                  <e p="valid.js" t="Include" />
+                </e>
+                <e p="duration" t="Include">
+                  <e p="bubble.js" t="Include" />
+                  <e p="constructor.js" t="Include" />
+                  <e p="create.js" t="Include" />
+                  <e p="humanize.js" t="Include" />
+                  <e p="valid.js" t="Include" />
+                </e>
+                <e p="format" t="Include">
+                  <e p="format.js" t="Include" />
+                </e>
+                <e p="format.js" t="Include" />
+                <e p="i18n" t="Include">
+                  <e p="ar.js" t="Include" />
+                  <e p="bg.js" t="Include" />
+                  <e p="ca.js" t="Include" />
+                  <e p="cs.js" t="Include" />
+                  <e p="da.js" t="Include" />
+                  <e p="de.js" t="Include" />
+                  <e p="en-gb.js" t="Include" />
+                  <e p="es-do.js" t="Include" />
+                  <e p="es-us.js" t="Include" />
+                  <e p="es.js" t="Include" />
+                  <e p="et.js" t="Include" />
+                  <e p="fi.js" t="Include" />
+                  <e p="fr.js" t="Include" />
+                  <e p="gl.js" t="Include" />
+                  <e p="he.js" t="Include" />
+                  <e p="hi.js" t="Include" />
+                  <e p="hr.js" t="Include" />
+                  <e p="hu.js" t="Include" />
+                  <e p="id.js" t="Include" />
+                  <e p="it.js" t="Include" />
+                  <e p="ja.js" t="Include" />
+                  <e p="ko.js" t="Include" />
+                  <e p="lt.js" t="Include" />
+                  <e p="lv.js" t="Include" />
+                  <e p="mn.js" t="Include" />
+                  <e p="nb.js" t="Include" />
+                  <e p="nl-be.js" t="Include" />
+                  <e p="nl.js" t="Include" />
+                  <e p="pl.js" t="Include" />
+                  <e p="pt-br.js" t="Include" />
+                  <e p="ro.js" t="Include" />
+                  <e p="ru.js" t="Include" />
+                  <e p="sk.js" t="Include" />
+                  <e p="sl.js" t="Include" />
+                  <e p="sv.js" t="Include" />
+                  <e p="th.js" t="Include" />
+                  <e p="tr.js" t="Include" />
+                  <e p="uk.js" t="Include" />
+                  <e p="vi.js" t="Include" />
+                  <e p="zh-cn.js" t="Include" />
+                </e>
+                <e p="index.js" t="Include" />
+                <e p="locale" t="Include">
+                  <e p="calendar.js" t="Include" />
+                  <e p="locale.class.js" t="Include" />
+                  <e p="locale.defaults.js" t="Include" />
+                  <e p="locales.js" t="Include" />
+                </e>
+                <e p="moment" t="Include">
+                  <e p="add-subtract.js" t="Include" />
+                  <e p="calendar.js" t="Include" />
+                  <e p="diff.js" t="Include" />
+                  <e p="min-max.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-chronos.js" t="Include" />
+                <e p="parse" t="Include">
+                  <e p="regex.js" t="Include" />
+                  <e p="token.js" t="Include" />
+                </e>
+                <e p="public_api.js" t="Include" />
+                <e p="test" t="Include">
+                  <e p="chain.js" t="Include" />
+                </e>
+                <e p="types.js" t="Include" />
+                <e p="units" t="Include">
+                  <e p="aliases.js" t="Include" />
+                  <e p="constants.js" t="Include" />
+                  <e p="day-of-month.js" t="Include" />
+                  <e p="day-of-week.js" t="Include" />
+                  <e p="day-of-year.js" t="Include" />
+                  <e p="hour.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="millisecond.js" t="Include" />
+                  <e p="minute.js" t="Include" />
+                  <e p="month.js" t="Include" />
+                  <e p="offset.js" t="Include" />
+                  <e p="priorities.js" t="Include" />
+                  <e p="quarter.js" t="Include" />
+                  <e p="second.js" t="Include" />
+                  <e p="timestamp.js" t="Include" />
+                  <e p="timezone.js" t="Include" />
+                  <e p="week-calendar-utils.js" t="Include" />
+                  <e p="week-year.js" t="Include" />
+                  <e p="week.js" t="Include" />
+                  <e p="year.js" t="Include" />
+                </e>
+                <e p="utils" t="Include">
+                  <e p="abs-ceil.js" t="Include" />
+                  <e p="abs-round.js" t="Include" />
+                  <e p="compare-arrays.js" t="Include" />
+                  <e p="date-compare.js" t="Include" />
+                  <e p="date-getters.js" t="Include" />
+                  <e p="date-setters.js" t="Include" />
+                  <e p="defaults.js" t="Include" />
+                  <e p="start-end-of.js" t="Include" />
+                  <e p="type-checks.js" t="Include" />
+                  <e p="zero-fill.js" t="Include" />
+                </e>
+                <e p="utils.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-chronos.js" t="Include" />
+                <e p="ngx-bootstrap-chronos.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-chronos.js" t="Include" />
+                <e p="ngx-bootstrap-chronos.js.map" t="Include" />
+              </e>
+              <e p="format" t="Include">
+                <e p="format.d.ts" t="Include" />
+              </e>
+              <e p="format.d.ts" t="Include" />
+              <e p="i18n" t="Include">
+                <e p="ar.d.ts" t="Include" />
+                <e p="bg.d.ts" t="Include" />
+                <e p="ca.d.ts" t="Include" />
+                <e p="cs.d.ts" t="Include" />
+                <e p="da.d.ts" t="Include" />
+                <e p="de.d.ts" t="Include" />
+                <e p="en-gb.d.ts" t="Include" />
+                <e p="es-do.d.ts" t="Include" />
+                <e p="es-us.d.ts" t="Include" />
+                <e p="es.d.ts" t="Include" />
+                <e p="et.d.ts" t="Include" />
+                <e p="fi.d.ts" t="Include" />
+                <e p="fr.d.ts" t="Include" />
+                <e p="gl.d.ts" t="Include" />
+                <e p="he.d.ts" t="Include" />
+                <e p="hi.d.ts" t="Include" />
+                <e p="hr.d.ts" t="Include" />
+                <e p="hu.d.ts" t="Include" />
+                <e p="id.d.ts" t="Include" />
+                <e p="it.d.ts" t="Include" />
+                <e p="ja.d.ts" t="Include" />
+                <e p="ko.d.ts" t="Include" />
+                <e p="lt.d.ts" t="Include" />
+                <e p="lv.d.ts" t="Include" />
+                <e p="mn.d.ts" t="Include" />
+                <e p="nb.d.ts" t="Include" />
+                <e p="nl-be.d.ts" t="Include" />
+                <e p="nl.d.ts" t="Include" />
+                <e p="pl.d.ts" t="Include" />
+                <e p="pt-br.d.ts" t="Include" />
+                <e p="ro.d.ts" t="Include" />
+                <e p="ru.d.ts" t="Include" />
+                <e p="sk.d.ts" t="Include" />
+                <e p="sl.d.ts" t="Include" />
+                <e p="sv.d.ts" t="Include" />
+                <e p="th.d.ts" t="Include" />
+                <e p="tr.d.ts" t="Include" />
+                <e p="uk.d.ts" t="Include" />
+                <e p="vi.d.ts" t="Include" />
+                <e p="zh-cn.d.ts" t="Include" />
+              </e>
+              <e p="index.d.ts" t="Include" />
+              <e p="LICENSE" t="Include" />
+              <e p="locale" t="Include">
+                <e p="calendar.d.ts" t="Include" />
+                <e p="locale.class.d.ts" t="Include" />
+                <e p="locale.defaults.d.ts" t="Include" />
+                <e p="locales.d.ts" t="Include" />
+              </e>
+              <e p="moment" t="Include">
+                <e p="add-subtract.d.ts" t="Include" />
+                <e p="calendar.d.ts" t="Include" />
+                <e p="diff.d.ts" t="Include" />
+                <e p="min-max.d.ts" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-chronos.d.ts" t="Include" />
+              <e p="ngx-bootstrap-chronos.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="parse" t="Include">
+                <e p="regex.d.ts" t="Include" />
+                <e p="token.d.ts" t="Include" />
+              </e>
+              <e p="public_api.d.ts" t="Include" />
+              <e p="test" t="Include">
+                <e p="chain.d.ts" t="Include" />
+              </e>
+              <e p="types.d.ts" t="Include" />
+              <e p="units" t="Include">
+                <e p="aliases.d.ts" t="Include" />
+                <e p="constants.d.ts" t="Include" />
+                <e p="day-of-month.d.ts" t="Include" />
+                <e p="day-of-week.d.ts" t="Include" />
+                <e p="day-of-year.d.ts" t="Include" />
+                <e p="hour.d.ts" t="Include" />
+                <e p="index.d.ts" t="Include" />
+                <e p="millisecond.d.ts" t="Include" />
+                <e p="minute.d.ts" t="Include" />
+                <e p="month.d.ts" t="Include" />
+                <e p="offset.d.ts" t="Include" />
+                <e p="priorities.d.ts" t="Include" />
+                <e p="quarter.d.ts" t="Include" />
+                <e p="second.d.ts" t="Include" />
+                <e p="timestamp.d.ts" t="Include" />
+                <e p="timezone.d.ts" t="Include" />
+                <e p="week-calendar-utils.d.ts" t="Include" />
+                <e p="week-year.d.ts" t="Include" />
+                <e p="week.d.ts" t="Include" />
+                <e p="year.d.ts" t="Include" />
+              </e>
+              <e p="utils" t="Include">
+                <e p="abs-ceil.d.ts" t="Include" />
+                <e p="abs-round.d.ts" t="Include" />
+                <e p="compare-arrays.d.ts" t="Include" />
+                <e p="date-compare.d.ts" t="Include" />
+                <e p="date-getters.d.ts" t="Include" />
+                <e p="date-setters.d.ts" t="Include" />
+                <e p="defaults.d.ts" t="Include" />
+                <e p="start-end-of.d.ts" t="Include" />
+                <e p="type-checks.d.ts" t="Include" />
+                <e p="zero-fill.d.ts" t="Include" />
+              </e>
+              <e p="utils.d.ts" t="Include" />
+            </e>
+            <e p="CODE_OF_CONDUCT.md" t="Include" />
+            <e p="collapse" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-collapse.umd.js" t="Include" />
+                <e p="ngx-bootstrap-collapse.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-collapse.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-collapse.umd.min.js.map" t="Include" />
+              </e>
+              <e p="collapse-animations.d.ts" t="Include" />
+              <e p="collapse.directive.d.ts" t="Include" />
+              <e p="collapse.module.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="collapse-animations.js" t="Include" />
+                <e p="collapse.directive.js" t="Include" />
+                <e p="collapse.module.js" t="Include" />
+                <e p="ngx-bootstrap-collapse.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="collapse-animations.js" t="Include" />
+                <e p="collapse.directive.js" t="Include" />
+                <e p="collapse.module.js" t="Include" />
+                <e p="ngx-bootstrap-collapse.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-collapse.js" t="Include" />
+                <e p="ngx-bootstrap-collapse.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-collapse.js" t="Include" />
+                <e p="ngx-bootstrap-collapse.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-collapse.d.ts" t="Include" />
+              <e p="ngx-bootstrap-collapse.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="component-loader" t="Include">
+              <e p="bs-component-ref.class.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-component-loader.umd.js" t="Include" />
+                <e p="ngx-bootstrap-component-loader.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-component-loader.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-component-loader.umd.min.js.map" t="Include" />
+              </e>
+              <e p="component-loader.class.d.ts" t="Include" />
+              <e p="component-loader.factory.d.ts" t="Include" />
+              <e p="content-ref.class.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="bs-component-ref.class.js" t="Include" />
+                <e p="component-loader.class.js" t="Include" />
+                <e p="component-loader.factory.js" t="Include" />
+                <e p="content-ref.class.js" t="Include" />
+                <e p="listen-options.model.js" t="Include" />
+                <e p="ngx-bootstrap-component-loader.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="bs-component-ref.class.js" t="Include" />
+                <e p="component-loader.class.js" t="Include" />
+                <e p="component-loader.factory.js" t="Include" />
+                <e p="content-ref.class.js" t="Include" />
+                <e p="listen-options.model.js" t="Include" />
+                <e p="ngx-bootstrap-component-loader.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-component-loader.js" t="Include" />
+                <e p="ngx-bootstrap-component-loader.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-component-loader.js" t="Include" />
+                <e p="ngx-bootstrap-component-loader.js.map" t="Include" />
+              </e>
+              <e p="listen-options.model.d.ts" t="Include" />
+              <e p="ngx-bootstrap-component-loader.d.ts" t="Include" />
+              <e p="ngx-bootstrap-component-loader.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="CONTRIBUTING.md" t="Include" />
+            <e p="datepicker" t="Include">
+              <e p="base" t="Include">
+                <e p="bs-datepicker-container.d.ts" t="Include" />
+              </e>
+              <e p="bs-datepicker-inline.component.d.ts" t="Include" />
+              <e p="bs-datepicker-inline.config.d.ts" t="Include" />
+              <e p="bs-datepicker-input.directive.d.ts" t="Include" />
+              <e p="bs-datepicker.component.d.ts" t="Include" />
+              <e p="bs-datepicker.config.d.ts" t="Include" />
+              <e p="bs-datepicker.css" t="Include" />
+              <e p="bs-datepicker.css.map" t="Include" />
+              <e p="bs-datepicker.module.d.ts" t="Include" />
+              <e p="bs-datepicker.scss" t="Include" />
+              <e p="bs-daterangepicker-inline.component.d.ts" t="Include" />
+              <e p="bs-daterangepicker-inline.config.d.ts" t="Include" />
+              <e p="bs-daterangepicker-input.directive.d.ts" t="Include" />
+              <e p="bs-daterangepicker.component.d.ts" t="Include" />
+              <e p="bs-daterangepicker.config.d.ts" t="Include" />
+              <e p="bs-locale.service.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-datepicker.umd.js" t="Include" />
+                <e p="ngx-bootstrap-datepicker.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-datepicker.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-datepicker.umd.min.js.map" t="Include" />
+              </e>
+              <e p="date-formatter.d.ts" t="Include" />
+              <e p="datepicker-animations.d.ts" t="Include" />
+              <e p="datepicker-inner.component.d.ts" t="Include" />
+              <e p="datepicker.component.d.ts" t="Include" />
+              <e p="datepicker.config.d.ts" t="Include" />
+              <e p="datepicker.module.d.ts" t="Include" />
+              <e p="daypicker.component.d.ts" t="Include" />
+              <e p="engine" t="Include">
+                <e p="calc-days-calendar.d.ts" t="Include" />
+                <e p="flag-days-calendar.d.ts" t="Include" />
+                <e p="flag-months-calendar.d.ts" t="Include" />
+                <e p="flag-years-calendar.d.ts" t="Include" />
+                <e p="format-days-calendar.d.ts" t="Include" />
+                <e p="format-months-calendar.d.ts" t="Include" />
+                <e p="format-years-calendar.d.ts" t="Include" />
+                <e p="view-mode.d.ts" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="base" t="Include">
+                  <e p="bs-datepicker-container.js" t="Include" />
+                </e>
+                <e p="bs-datepicker-inline.component.js" t="Include" />
+                <e p="bs-datepicker-inline.config.js" t="Include" />
+                <e p="bs-datepicker-input.directive.js" t="Include" />
+                <e p="bs-datepicker.component.js" t="Include" />
+                <e p="bs-datepicker.config.js" t="Include" />
+                <e p="bs-datepicker.module.js" t="Include" />
+                <e p="bs-daterangepicker-inline.component.js" t="Include" />
+                <e p="bs-daterangepicker-inline.config.js" t="Include" />
+                <e p="bs-daterangepicker-input.directive.js" t="Include" />
+                <e p="bs-daterangepicker.component.js" t="Include" />
+                <e p="bs-daterangepicker.config.js" t="Include" />
+                <e p="bs-locale.service.js" t="Include" />
+                <e p="date-formatter.js" t="Include" />
+                <e p="datepicker-animations.js" t="Include" />
+                <e p="datepicker-inner.component.js" t="Include" />
+                <e p="datepicker.component.js" t="Include" />
+                <e p="datepicker.config.js" t="Include" />
+                <e p="datepicker.module.js" t="Include" />
+                <e p="daypicker.component.js" t="Include" />
+                <e p="engine" t="Include">
+                  <e p="calc-days-calendar.js" t="Include" />
+                  <e p="flag-days-calendar.js" t="Include" />
+                  <e p="flag-months-calendar.js" t="Include" />
+                  <e p="flag-years-calendar.js" t="Include" />
+                  <e p="format-days-calendar.js" t="Include" />
+                  <e p="format-months-calendar.js" t="Include" />
+                  <e p="format-years-calendar.js" t="Include" />
+                  <e p="view-mode.js" t="Include" />
+                </e>
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="monthpicker.component.js" t="Include" />
+                <e p="ngx-bootstrap-datepicker.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="reducer" t="Include">
+                  <e p="_defaults.js" t="Include" />
+                  <e p="bs-datepicker.actions.js" t="Include" />
+                  <e p="bs-datepicker.effects.js" t="Include" />
+                  <e p="bs-datepicker.reducer.js" t="Include" />
+                  <e p="bs-datepicker.state.js" t="Include" />
+                  <e p="bs-datepicker.store.js" t="Include" />
+                </e>
+                <e p="themes" t="Include">
+                  <e p="bs" t="Include">
+                    <e p="bs-calendar-layout.component.js" t="Include" />
+                    <e p="bs-current-date-view.component.js" t="Include" />
+                    <e p="bs-custom-dates-view.component.js" t="Include" />
+                    <e p="bs-datepicker-container.component.js" t="Include" />
+                    <e p="bs-datepicker-day-decorator.directive.js" t="Include" />
+                    <e p="bs-datepicker-inline-container.component.js" t="Include" />
+                    <e p="bs-datepicker-navigation-view.component.js" t="Include" />
+                    <e p="bs-daterangepicker-container.component.js" t="Include" />
+                    <e p="bs-daterangepicker-inline-container.component.js" t="Include" />
+                    <e p="bs-days-calendar-view.component.js" t="Include" />
+                    <e p="bs-months-calendar-view.component.js" t="Include" />
+                    <e p="bs-timepicker-view.component.js" t="Include" />
+                    <e p="bs-years-calendar-view.component.js" t="Include" />
+                  </e>
+                </e>
+                <e p="utils" t="Include">
+                  <e p="bs-calendar-utils.js" t="Include" />
+                  <e p="matrix-utils.js" t="Include" />
+                </e>
+                <e p="yearpicker.component.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="base" t="Include">
+                  <e p="bs-datepicker-container.js" t="Include" />
+                </e>
+                <e p="bs-datepicker-inline.component.js" t="Include" />
+                <e p="bs-datepicker-inline.config.js" t="Include" />
+                <e p="bs-datepicker-input.directive.js" t="Include" />
+                <e p="bs-datepicker.component.js" t="Include" />
+                <e p="bs-datepicker.config.js" t="Include" />
+                <e p="bs-datepicker.module.js" t="Include" />
+                <e p="bs-daterangepicker-inline.component.js" t="Include" />
+                <e p="bs-daterangepicker-inline.config.js" t="Include" />
+                <e p="bs-daterangepicker-input.directive.js" t="Include" />
+                <e p="bs-daterangepicker.component.js" t="Include" />
+                <e p="bs-daterangepicker.config.js" t="Include" />
+                <e p="bs-locale.service.js" t="Include" />
+                <e p="date-formatter.js" t="Include" />
+                <e p="datepicker-animations.js" t="Include" />
+                <e p="datepicker-inner.component.js" t="Include" />
+                <e p="datepicker.component.js" t="Include" />
+                <e p="datepicker.config.js" t="Include" />
+                <e p="datepicker.module.js" t="Include" />
+                <e p="daypicker.component.js" t="Include" />
+                <e p="engine" t="Include">
+                  <e p="calc-days-calendar.js" t="Include" />
+                  <e p="flag-days-calendar.js" t="Include" />
+                  <e p="flag-months-calendar.js" t="Include" />
+                  <e p="flag-years-calendar.js" t="Include" />
+                  <e p="format-days-calendar.js" t="Include" />
+                  <e p="format-months-calendar.js" t="Include" />
+                  <e p="format-years-calendar.js" t="Include" />
+                  <e p="view-mode.js" t="Include" />
+                </e>
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="monthpicker.component.js" t="Include" />
+                <e p="ngx-bootstrap-datepicker.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="reducer" t="Include">
+                  <e p="_defaults.js" t="Include" />
+                  <e p="bs-datepicker.actions.js" t="Include" />
+                  <e p="bs-datepicker.effects.js" t="Include" />
+                  <e p="bs-datepicker.reducer.js" t="Include" />
+                  <e p="bs-datepicker.state.js" t="Include" />
+                  <e p="bs-datepicker.store.js" t="Include" />
+                </e>
+                <e p="themes" t="Include">
+                  <e p="bs" t="Include">
+                    <e p="bs-calendar-layout.component.js" t="Include" />
+                    <e p="bs-current-date-view.component.js" t="Include" />
+                    <e p="bs-custom-dates-view.component.js" t="Include" />
+                    <e p="bs-datepicker-container.component.js" t="Include" />
+                    <e p="bs-datepicker-day-decorator.directive.js" t="Include" />
+                    <e p="bs-datepicker-inline-container.component.js" t="Include" />
+                    <e p="bs-datepicker-navigation-view.component.js" t="Include" />
+                    <e p="bs-daterangepicker-container.component.js" t="Include" />
+                    <e p="bs-daterangepicker-inline-container.component.js" t="Include" />
+                    <e p="bs-days-calendar-view.component.js" t="Include" />
+                    <e p="bs-months-calendar-view.component.js" t="Include" />
+                    <e p="bs-timepicker-view.component.js" t="Include" />
+                    <e p="bs-years-calendar-view.component.js" t="Include" />
+                  </e>
+                </e>
+                <e p="utils" t="Include">
+                  <e p="bs-calendar-utils.js" t="Include" />
+                  <e p="matrix-utils.js" t="Include" />
+                </e>
+                <e p="yearpicker.component.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-datepicker.js" t="Include" />
+                <e p="ngx-bootstrap-datepicker.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-datepicker.js" t="Include" />
+                <e p="ngx-bootstrap-datepicker.js.map" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="monthpicker.component.d.ts" t="Include" />
+              <e p="ngx-bootstrap-datepicker.d.ts" t="Include" />
+              <e p="ngx-bootstrap-datepicker.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="reducer" t="Include">
+                <e p="_defaults.d.ts" t="Include" />
+                <e p="bs-datepicker.actions.d.ts" t="Include" />
+                <e p="bs-datepicker.effects.d.ts" t="Include" />
+                <e p="bs-datepicker.reducer.d.ts" t="Include" />
+                <e p="bs-datepicker.state.d.ts" t="Include" />
+                <e p="bs-datepicker.store.d.ts" t="Include" />
+              </e>
+              <e p="themes" t="Include">
+                <e p="bs" t="Include">
+                  <e p="bs-calendar-layout.component.d.ts" t="Include" />
+                  <e p="bs-current-date-view.component.d.ts" t="Include" />
+                  <e p="bs-custom-dates-view.component.d.ts" t="Include" />
+                  <e p="bs-datepicker-container.component.d.ts" t="Include" />
+                  <e p="bs-datepicker-day-decorator.directive.d.ts" t="Include" />
+                  <e p="bs-datepicker-inline-container.component.d.ts" t="Include" />
+                  <e p="bs-datepicker-navigation-view.component.d.ts" t="Include" />
+                  <e p="bs-daterangepicker-container.component.d.ts" t="Include" />
+                  <e p="bs-daterangepicker-inline-container.component.d.ts" t="Include" />
+                  <e p="bs-days-calendar-view.component.d.ts" t="Include" />
+                  <e p="bs-months-calendar-view.component.d.ts" t="Include" />
+                  <e p="bs-timepicker-view.component.d.ts" t="Include" />
+                  <e p="bs-years-calendar-view.component.d.ts" t="Include" />
+                </e>
+              </e>
+              <e p="utils" t="Include">
+                <e p="bs-calendar-utils.d.ts" t="Include" />
+                <e p="matrix-utils.d.ts" t="Include" />
+                <e p="scss" t="Include">
+                  <e p="mixins.css" t="Include" />
+                  <e p="mixins.css.map" t="Include" />
+                  <e p="mixins.scss" t="Include" />
+                  <e p="variables.css" t="Include" />
+                  <e p="variables.css.map" t="Include" />
+                  <e p="variables.scss" t="Include" />
+                </e>
+              </e>
+              <e p="yearpicker.component.d.ts" t="Include" />
+            </e>
+            <e p="dropdown" t="Include">
+              <e p="bs-dropdown-container.component.d.ts" t="Include" />
+              <e p="bs-dropdown-menu.directive.d.ts" t="Include" />
+              <e p="bs-dropdown-toggle.directive.d.ts" t="Include" />
+              <e p="bs-dropdown.config.d.ts" t="Include" />
+              <e p="bs-dropdown.directive.d.ts" t="Include" />
+              <e p="bs-dropdown.module.d.ts" t="Include" />
+              <e p="bs-dropdown.state.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-dropdown.umd.js" t="Include" />
+                <e p="ngx-bootstrap-dropdown.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-dropdown.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-dropdown.umd.min.js.map" t="Include" />
+              </e>
+              <e p="dropdown-animations.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="bs-dropdown-container.component.js" t="Include" />
+                <e p="bs-dropdown-menu.directive.js" t="Include" />
+                <e p="bs-dropdown-toggle.directive.js" t="Include" />
+                <e p="bs-dropdown.config.js" t="Include" />
+                <e p="bs-dropdown.directive.js" t="Include" />
+                <e p="bs-dropdown.module.js" t="Include" />
+                <e p="bs-dropdown.state.js" t="Include" />
+                <e p="dropdown-animations.js" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="ngx-bootstrap-dropdown.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="bs-dropdown-container.component.js" t="Include" />
+                <e p="bs-dropdown-menu.directive.js" t="Include" />
+                <e p="bs-dropdown-toggle.directive.js" t="Include" />
+                <e p="bs-dropdown.config.js" t="Include" />
+                <e p="bs-dropdown.directive.js" t="Include" />
+                <e p="bs-dropdown.module.js" t="Include" />
+                <e p="bs-dropdown.state.js" t="Include" />
+                <e p="dropdown-animations.js" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="ngx-bootstrap-dropdown.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-dropdown.js" t="Include" />
+                <e p="ngx-bootstrap-dropdown.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-dropdown.js" t="Include" />
+                <e p="ngx-bootstrap-dropdown.js.map" t="Include" />
+              </e>
+              <e p="index.d.ts" t="Include" />
+              <e p="ngx-bootstrap-dropdown.d.ts" t="Include" />
+              <e p="ngx-bootstrap-dropdown.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="esm2015" t="Include">
+              <e p="ngx-bootstrap.js" t="Include" />
+              <e p="public_api.js" t="Include" />
+            </e>
+            <e p="esm5" t="Include">
+              <e p="ngx-bootstrap.js" t="Include" />
+              <e p="public_api.js" t="Include" />
+            </e>
+            <e p="fesm2015" t="Include">
+              <e p="ngx-bootstrap.js" t="Include" />
+              <e p="ngx-bootstrap.js.map" t="Include" />
+            </e>
+            <e p="fesm5" t="Include">
+              <e p="ngx-bootstrap.js" t="Include" />
+              <e p="ngx-bootstrap.js.map" t="Include" />
+            </e>
+            <e p="LICENSE" t="Include" />
+            <e p="locale" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-locale.umd.js" t="Include" />
+                <e p="ngx-bootstrap-locale.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-locale.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-locale.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="ngx-bootstrap-locale.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="ngx-bootstrap-locale.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-locale.js" t="Include" />
+                <e p="ngx-bootstrap-locale.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-locale.js" t="Include" />
+                <e p="ngx-bootstrap-locale.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-locale.d.ts" t="Include" />
+              <e p="ngx-bootstrap-locale.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="mini-ngrx" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-mini-ngrx.umd.js" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="index.js" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="state.class.js" t="Include" />
+                <e p="store.class.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="index.js" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="state.class.js" t="Include" />
+                <e p="store.class.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-mini-ngrx.js" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-mini-ngrx.js" t="Include" />
+                <e p="ngx-bootstrap-mini-ngrx.js.map" t="Include" />
+              </e>
+              <e p="index.d.ts" t="Include" />
+              <e p="ngx-bootstrap-mini-ngrx.d.ts" t="Include" />
+              <e p="ngx-bootstrap-mini-ngrx.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="state.class.d.ts" t="Include" />
+              <e p="store.class.d.ts" t="Include" />
+            </e>
+            <e p="modal" t="Include">
+              <e p="bs-modal-ref.service.d.ts" t="Include" />
+              <e p="bs-modal.service.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-modal.umd.js" t="Include" />
+                <e p="ngx-bootstrap-modal.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-modal.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-modal.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="bs-modal-ref.service.js" t="Include" />
+                <e p="bs-modal.service.js" t="Include" />
+                <e p="modal-backdrop.component.js" t="Include" />
+                <e p="modal-backdrop.options.js" t="Include" />
+                <e p="modal-container.component.js" t="Include" />
+                <e p="modal-options.class.js" t="Include" />
+                <e p="modal.directive.js" t="Include" />
+                <e p="modal.module.js" t="Include" />
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-modal.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="bs-modal-ref.service.js" t="Include" />
+                <e p="bs-modal.service.js" t="Include" />
+                <e p="modal-backdrop.component.js" t="Include" />
+                <e p="modal-backdrop.options.js" t="Include" />
+                <e p="modal-container.component.js" t="Include" />
+                <e p="modal-options.class.js" t="Include" />
+                <e p="modal.directive.js" t="Include" />
+                <e p="modal.module.js" t="Include" />
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-modal.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-modal.js" t="Include" />
+                <e p="ngx-bootstrap-modal.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-modal.js" t="Include" />
+                <e p="ngx-bootstrap-modal.js.map" t="Include" />
+              </e>
+              <e p="modal-backdrop.component.d.ts" t="Include" />
+              <e p="modal-backdrop.options.d.ts" t="Include" />
+              <e p="modal-container.component.d.ts" t="Include" />
+              <e p="modal-options.class.d.ts" t="Include" />
+              <e p="modal.directive.d.ts" t="Include" />
+              <e p="modal.module.d.ts" t="Include" />
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-modal.d.ts" t="Include" />
+              <e p="ngx-bootstrap-modal.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="ngx-bootstrap.d.ts" t="Include" />
+            <e p="ngx-bootstrap.metadata.json" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="pagination" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-pagination.umd.js" t="Include" />
+                <e p="ngx-bootstrap-pagination.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-pagination.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-pagination.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-pagination.js" t="Include" />
+                <e p="pager.component.js" t="Include" />
+                <e p="pagination.component.js" t="Include" />
+                <e p="pagination.config.js" t="Include" />
+                <e p="pagination.module.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-pagination.js" t="Include" />
+                <e p="pager.component.js" t="Include" />
+                <e p="pagination.component.js" t="Include" />
+                <e p="pagination.config.js" t="Include" />
+                <e p="pagination.module.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-pagination.js" t="Include" />
+                <e p="ngx-bootstrap-pagination.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-pagination.js" t="Include" />
+                <e p="ngx-bootstrap-pagination.js.map" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-pagination.d.ts" t="Include" />
+              <e p="ngx-bootstrap-pagination.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="pager.component.d.ts" t="Include" />
+              <e p="pagination.component.d.ts" t="Include" />
+              <e p="pagination.config.d.ts" t="Include" />
+              <e p="pagination.module.d.ts" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="popover" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-popover.umd.js" t="Include" />
+                <e p="ngx-bootstrap-popover.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-popover.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-popover.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="ngx-bootstrap-popover.js" t="Include" />
+                <e p="popover-container.component.js" t="Include" />
+                <e p="popover.config.js" t="Include" />
+                <e p="popover.directive.js" t="Include" />
+                <e p="popover.module.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="ngx-bootstrap-popover.js" t="Include" />
+                <e p="popover-container.component.js" t="Include" />
+                <e p="popover.config.js" t="Include" />
+                <e p="popover.directive.js" t="Include" />
+                <e p="popover.module.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-popover.js" t="Include" />
+                <e p="ngx-bootstrap-popover.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-popover.js" t="Include" />
+                <e p="ngx-bootstrap-popover.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-popover.d.ts" t="Include" />
+              <e p="ngx-bootstrap-popover.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="popover-container.component.d.ts" t="Include" />
+              <e p="popover.config.d.ts" t="Include" />
+              <e p="popover.directive.d.ts" t="Include" />
+              <e p="popover.module.d.ts" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="positioning" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-positioning.umd.js" t="Include" />
+                <e p="ngx-bootstrap-positioning.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-positioning.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-positioning.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="modifiers" t="Include">
+                  <e p="arrow.js" t="Include" />
+                  <e p="flip.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="initData.js" t="Include" />
+                  <e p="preventOverflow.js" t="Include" />
+                  <e p="shift.js" t="Include" />
+                </e>
+                <e p="ng-positioning.js" t="Include" />
+                <e p="ngx-bootstrap-positioning.js" t="Include" />
+                <e p="positioning.service.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="utils" t="Include">
+                  <e p="computeAutoPlacement.js" t="Include" />
+                  <e p="findCommonOffsetParent.js" t="Include" />
+                  <e p="getBordersSize.js" t="Include" />
+                  <e p="getBoundaries.js" t="Include" />
+                  <e p="getBoundingClientRect.js" t="Include" />
+                  <e p="getClientRect.js" t="Include" />
+                  <e p="getFixedPositionOffsetParent.js" t="Include" />
+                  <e p="getOffsetParent.js" t="Include" />
+                  <e p="getOffsetRectRelativeToArbitraryNode.js" t="Include" />
+                  <e p="getOffsets.js" t="Include" />
+                  <e p="getOppositePlacement.js" t="Include" />
+                  <e p="getOppositeVariation.js" t="Include" />
+                  <e p="getOuterSizes.js" t="Include" />
+                  <e p="getParentNode.js" t="Include" />
+                  <e p="getReferenceOffsets.js" t="Include" />
+                  <e p="getRoot.js" t="Include" />
+                  <e p="getScroll.js" t="Include" />
+                  <e p="getScrollParent.js" t="Include" />
+                  <e p="getStyleComputedProperty.js" t="Include" />
+                  <e p="getTargetOffsets.js" t="Include" />
+                  <e p="getViewportOffsetRectRelativeToArtbitraryNode.js" t="Include" />
+                  <e p="getWindowSizes.js" t="Include" />
+                  <e p="includeScroll.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="isBrowser.js" t="Include" />
+                  <e p="isFixed.js" t="Include" />
+                  <e p="isIE.js" t="Include" />
+                  <e p="isModifierEnabled.js" t="Include" />
+                  <e p="isNumeric.js" t="Include" />
+                  <e p="isOffsetContainer.js" t="Include" />
+                  <e p="setStyles.js" t="Include" />
+                  <e p="updateContainerClass.js" t="Include" />
+                </e>
+              </e>
+              <e p="esm5" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="modifiers" t="Include">
+                  <e p="arrow.js" t="Include" />
+                  <e p="flip.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="initData.js" t="Include" />
+                  <e p="preventOverflow.js" t="Include" />
+                  <e p="shift.js" t="Include" />
+                </e>
+                <e p="ng-positioning.js" t="Include" />
+                <e p="ngx-bootstrap-positioning.js" t="Include" />
+                <e p="positioning.service.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="utils" t="Include">
+                  <e p="computeAutoPlacement.js" t="Include" />
+                  <e p="findCommonOffsetParent.js" t="Include" />
+                  <e p="getBordersSize.js" t="Include" />
+                  <e p="getBoundaries.js" t="Include" />
+                  <e p="getBoundingClientRect.js" t="Include" />
+                  <e p="getClientRect.js" t="Include" />
+                  <e p="getFixedPositionOffsetParent.js" t="Include" />
+                  <e p="getOffsetParent.js" t="Include" />
+                  <e p="getOffsetRectRelativeToArbitraryNode.js" t="Include" />
+                  <e p="getOffsets.js" t="Include" />
+                  <e p="getOppositePlacement.js" t="Include" />
+                  <e p="getOppositeVariation.js" t="Include" />
+                  <e p="getOuterSizes.js" t="Include" />
+                  <e p="getParentNode.js" t="Include" />
+                  <e p="getReferenceOffsets.js" t="Include" />
+                  <e p="getRoot.js" t="Include" />
+                  <e p="getScroll.js" t="Include" />
+                  <e p="getScrollParent.js" t="Include" />
+                  <e p="getStyleComputedProperty.js" t="Include" />
+                  <e p="getTargetOffsets.js" t="Include" />
+                  <e p="getViewportOffsetRectRelativeToArtbitraryNode.js" t="Include" />
+                  <e p="getWindowSizes.js" t="Include" />
+                  <e p="includeScroll.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="isBrowser.js" t="Include" />
+                  <e p="isFixed.js" t="Include" />
+                  <e p="isIE.js" t="Include" />
+                  <e p="isModifierEnabled.js" t="Include" />
+                  <e p="isNumeric.js" t="Include" />
+                  <e p="isOffsetContainer.js" t="Include" />
+                  <e p="setStyles.js" t="Include" />
+                  <e p="updateContainerClass.js" t="Include" />
+                </e>
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-positioning.js" t="Include" />
+                <e p="ngx-bootstrap-positioning.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-positioning.js" t="Include" />
+                <e p="ngx-bootstrap-positioning.js.map" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="modifiers" t="Include">
+                <e p="arrow.d.ts" t="Include" />
+                <e p="flip.d.ts" t="Include" />
+                <e p="index.d.ts" t="Include" />
+                <e p="initData.d.ts" t="Include" />
+                <e p="preventOverflow.d.ts" t="Include" />
+                <e p="shift.d.ts" t="Include" />
+              </e>
+              <e p="ng-positioning.d.ts" t="Include" />
+              <e p="ngx-bootstrap-positioning.d.ts" t="Include" />
+              <e p="ngx-bootstrap-positioning.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="positioning.service.d.ts" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="utils" t="Include">
+                <e p="computeAutoPlacement.d.ts" t="Include" />
+                <e p="findCommonOffsetParent.d.ts" t="Include" />
+                <e p="getBordersSize.d.ts" t="Include" />
+                <e p="getBoundaries.d.ts" t="Include" />
+                <e p="getBoundingClientRect.d.ts" t="Include" />
+                <e p="getClientRect.d.ts" t="Include" />
+                <e p="getFixedPositionOffsetParent.d.ts" t="Include" />
+                <e p="getOffsetParent.d.ts" t="Include" />
+                <e p="getOffsetRectRelativeToArbitraryNode.d.ts" t="Include" />
+                <e p="getOffsets.d.ts" t="Include" />
+                <e p="getOppositePlacement.d.ts" t="Include" />
+                <e p="getOppositeVariation.d.ts" t="Include" />
+                <e p="getOuterSizes.d.ts" t="Include" />
+                <e p="getParentNode.d.ts" t="Include" />
+                <e p="getReferenceOffsets.d.ts" t="Include" />
+                <e p="getRoot.d.ts" t="Include" />
+                <e p="getScroll.d.ts" t="Include" />
+                <e p="getScrollParent.d.ts" t="Include" />
+                <e p="getStyleComputedProperty.d.ts" t="Include" />
+                <e p="getTargetOffsets.d.ts" t="Include" />
+                <e p="getViewportOffsetRectRelativeToArtbitraryNode.d.ts" t="Include" />
+                <e p="getWindowSizes.d.ts" t="Include" />
+                <e p="includeScroll.d.ts" t="Include" />
+                <e p="index.d.ts" t="Include" />
+                <e p="isBrowser.d.ts" t="Include" />
+                <e p="isFixed.d.ts" t="Include" />
+                <e p="isIE.d.ts" t="Include" />
+                <e p="isModifierEnabled.d.ts" t="Include" />
+                <e p="isNumeric.d.ts" t="Include" />
+                <e p="isOffsetContainer.d.ts" t="Include" />
+                <e p="setStyles.d.ts" t="Include" />
+                <e p="updateContainerClass.d.ts" t="Include" />
+              </e>
+            </e>
+            <e p="progressbar" t="Include">
+              <e p="bar.component.d.ts" t="Include" />
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-progressbar.umd.js" t="Include" />
+                <e p="ngx-bootstrap-progressbar.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-progressbar.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-progressbar.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="bar.component.js" t="Include" />
+                <e p="ngx-bootstrap-progressbar.js" t="Include" />
+                <e p="progressbar-type.interface.js" t="Include" />
+                <e p="progressbar.component.js" t="Include" />
+                <e p="progressbar.config.js" t="Include" />
+                <e p="progressbar.module.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="bar.component.js" t="Include" />
+                <e p="ngx-bootstrap-progressbar.js" t="Include" />
+                <e p="progressbar-type.interface.js" t="Include" />
+                <e p="progressbar.component.js" t="Include" />
+                <e p="progressbar.config.js" t="Include" />
+                <e p="progressbar.module.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-progressbar.js" t="Include" />
+                <e p="ngx-bootstrap-progressbar.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-progressbar.js" t="Include" />
+                <e p="ngx-bootstrap-progressbar.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-progressbar.d.ts" t="Include" />
+              <e p="ngx-bootstrap-progressbar.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="progressbar-type.interface.d.ts" t="Include" />
+              <e p="progressbar.component.d.ts" t="Include" />
+              <e p="progressbar.config.d.ts" t="Include" />
+              <e p="progressbar.module.d.ts" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+            </e>
+            <e p="public_api.d.ts" t="Include" />
+            <e p="rating" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-rating.umd.js" t="Include" />
+                <e p="ngx-bootstrap-rating.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-rating.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-rating.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-rating.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="rating.component.js" t="Include" />
+                <e p="rating.module.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-rating.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="rating.component.js" t="Include" />
+                <e p="rating.module.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-rating.js" t="Include" />
+                <e p="ngx-bootstrap-rating.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-rating.js" t="Include" />
+                <e p="ngx-bootstrap-rating.js.map" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-rating.d.ts" t="Include" />
+              <e p="ngx-bootstrap-rating.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="rating.component.d.ts" t="Include" />
+              <e p="rating.module.d.ts" t="Include" />
+            </e>
+            <e p="README.md" t="Include" />
+            <e p="schematics" t="Include">
+              <e p="collection.json" t="Include" />
+              <e p="ng-add" t="Include">
+                <e p="index.js" t="Include" />
+                <e p="index.js.map" t="Include" />
+                <e p="index.spec.js" t="Include" />
+                <e p="index.spec.js.map" t="Include" />
+                <e p="schema.js" t="Include" />
+                <e p="schema.js.map" t="Include" />
+                <e p="schema.json" t="Include" />
+              </e>
+              <e p="utils" t="Include">
+                <e p="index.js" t="Include" />
+                <e p="index.js.map" t="Include" />
+                <e p="ng-module-imports.js" t="Include" />
+                <e p="ng-module-imports.js.map" t="Include" />
+                <e p="project-main-file.js" t="Include" />
+                <e p="project-main-file.js.map" t="Include" />
+                <e p="project-targets.js" t="Include" />
+                <e p="project-targets.js.map" t="Include" />
+              </e>
+            </e>
+            <e p="sortable" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-sortable.umd.js" t="Include" />
+                <e p="ngx-bootstrap-sortable.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-sortable.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-sortable.umd.min.js.map" t="Include" />
+              </e>
+              <e p="draggable-item.d.ts" t="Include" />
+              <e p="draggable-item.service.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="draggable-item.js" t="Include" />
+                <e p="draggable-item.service.js" t="Include" />
+                <e p="ngx-bootstrap-sortable.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="sortable.component.js" t="Include" />
+                <e p="sortable.module.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="draggable-item.js" t="Include" />
+                <e p="draggable-item.service.js" t="Include" />
+                <e p="ngx-bootstrap-sortable.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="sortable.component.js" t="Include" />
+                <e p="sortable.module.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-sortable.js" t="Include" />
+                <e p="ngx-bootstrap-sortable.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-sortable.js" t="Include" />
+                <e p="ngx-bootstrap-sortable.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-sortable.d.ts" t="Include" />
+              <e p="ngx-bootstrap-sortable.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="sortable.component.d.ts" t="Include" />
+              <e p="sortable.module.d.ts" t="Include" />
+            </e>
+            <e p="tabs" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-tabs.umd.js" t="Include" />
+                <e p="ngx-bootstrap-tabs.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-tabs.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-tabs.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="ng-transclude.directive.js" t="Include" />
+                <e p="ngx-bootstrap-tabs.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="tab-heading.directive.js" t="Include" />
+                <e p="tab.directive.js" t="Include" />
+                <e p="tabs.module.js" t="Include" />
+                <e p="tabset.component.js" t="Include" />
+                <e p="tabset.config.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="ng-transclude.directive.js" t="Include" />
+                <e p="ngx-bootstrap-tabs.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="tab-heading.directive.js" t="Include" />
+                <e p="tab.directive.js" t="Include" />
+                <e p="tabs.module.js" t="Include" />
+                <e p="tabset.component.js" t="Include" />
+                <e p="tabset.config.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-tabs.js" t="Include" />
+                <e p="ngx-bootstrap-tabs.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-tabs.js" t="Include" />
+                <e p="ngx-bootstrap-tabs.js.map" t="Include" />
+              </e>
+              <e p="ng-transclude.directive.d.ts" t="Include" />
+              <e p="ngx-bootstrap-tabs.d.ts" t="Include" />
+              <e p="ngx-bootstrap-tabs.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="tab-heading.directive.d.ts" t="Include" />
+              <e p="tab.directive.d.ts" t="Include" />
+              <e p="tabs.css" t="Include" />
+              <e p="tabs.css.map" t="Include" />
+              <e p="tabs.module.d.ts" t="Include" />
+              <e p="tabset.component.d.ts" t="Include" />
+              <e p="tabset.config.d.ts" t="Include" />
+            </e>
+            <e p="timepicker" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-timepicker.umd.js" t="Include" />
+                <e p="ngx-bootstrap-timepicker.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-timepicker.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-timepicker.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-timepicker.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="reducer" t="Include">
+                  <e p="timepicker.actions.js" t="Include" />
+                  <e p="timepicker.reducer.js" t="Include" />
+                  <e p="timepicker.store.js" t="Include" />
+                </e>
+                <e p="timepicker-controls.util.js" t="Include" />
+                <e p="timepicker.component.js" t="Include" />
+                <e p="timepicker.config.js" t="Include" />
+                <e p="timepicker.models.js" t="Include" />
+                <e p="timepicker.module.js" t="Include" />
+                <e p="timepicker.utils.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="Models" t="Include">
+                  <e p="index.js" t="Include" />
+                </e>
+                <e p="ngx-bootstrap-timepicker.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="reducer" t="Include">
+                  <e p="timepicker.actions.js" t="Include" />
+                  <e p="timepicker.reducer.js" t="Include" />
+                  <e p="timepicker.store.js" t="Include" />
+                </e>
+                <e p="timepicker-controls.util.js" t="Include" />
+                <e p="timepicker.component.js" t="Include" />
+                <e p="timepicker.config.js" t="Include" />
+                <e p="timepicker.models.js" t="Include" />
+                <e p="timepicker.module.js" t="Include" />
+                <e p="timepicker.utils.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-timepicker.js" t="Include" />
+                <e p="ngx-bootstrap-timepicker.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-timepicker.js" t="Include" />
+                <e p="ngx-bootstrap-timepicker.js.map" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="index.d.ts" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-timepicker.d.ts" t="Include" />
+              <e p="ngx-bootstrap-timepicker.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="reducer" t="Include">
+                <e p="timepicker.actions.d.ts" t="Include" />
+                <e p="timepicker.reducer.d.ts" t="Include" />
+                <e p="timepicker.store.d.ts" t="Include" />
+              </e>
+              <e p="timepicker-controls.util.d.ts" t="Include" />
+              <e p="timepicker.component.d.ts" t="Include" />
+              <e p="timepicker.config.d.ts" t="Include" />
+              <e p="timepicker.models.d.ts" t="Include" />
+              <e p="timepicker.module.d.ts" t="Include" />
+              <e p="timepicker.utils.d.ts" t="Include" />
+            </e>
+            <e p="tooltip" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-tooltip.umd.js" t="Include" />
+                <e p="ngx-bootstrap-tooltip.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-tooltip.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-tooltip.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="ngx-bootstrap-tooltip.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="tooltip-container.component.js" t="Include" />
+                <e p="tooltip.config.js" t="Include" />
+                <e p="tooltip.directive.js" t="Include" />
+                <e p="tooltip.module.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="ngx-bootstrap-tooltip.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="tooltip-container.component.js" t="Include" />
+                <e p="tooltip.config.js" t="Include" />
+                <e p="tooltip.directive.js" t="Include" />
+                <e p="tooltip.module.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-tooltip.js" t="Include" />
+                <e p="ngx-bootstrap-tooltip.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-tooltip.js" t="Include" />
+                <e p="ngx-bootstrap-tooltip.js.map" t="Include" />
+              </e>
+              <e p="ngx-bootstrap-tooltip.d.ts" t="Include" />
+              <e p="ngx-bootstrap-tooltip.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="tooltip-container.component.d.ts" t="Include" />
+              <e p="tooltip.config.d.ts" t="Include" />
+              <e p="tooltip.directive.d.ts" t="Include" />
+              <e p="tooltip.module.d.ts" t="Include" />
+            </e>
+            <e p="typeahead" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-typeahead.umd.js" t="Include" />
+                <e p="ngx-bootstrap-typeahead.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-typeahead.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-typeahead.umd.min.js.map" t="Include" />
+              </e>
+              <e p="esm2015" t="Include">
+                <e p="latin-map.js" t="Include" />
+                <e p="ngx-bootstrap-typeahead.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="typeahead-animations.js" t="Include" />
+                <e p="typeahead-container.component.js" t="Include" />
+                <e p="typeahead-match.class.js" t="Include" />
+                <e p="typeahead-options.class.js" t="Include" />
+                <e p="typeahead-utils.js" t="Include" />
+                <e p="typeahead.config.js" t="Include" />
+                <e p="typeahead.directive.js" t="Include" />
+                <e p="typeahead.module.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="latin-map.js" t="Include" />
+                <e p="ngx-bootstrap-typeahead.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="typeahead-animations.js" t="Include" />
+                <e p="typeahead-container.component.js" t="Include" />
+                <e p="typeahead-match.class.js" t="Include" />
+                <e p="typeahead-options.class.js" t="Include" />
+                <e p="typeahead-utils.js" t="Include" />
+                <e p="typeahead.config.js" t="Include" />
+                <e p="typeahead.directive.js" t="Include" />
+                <e p="typeahead.module.js" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-typeahead.js" t="Include" />
+                <e p="ngx-bootstrap-typeahead.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-typeahead.js" t="Include" />
+                <e p="ngx-bootstrap-typeahead.js.map" t="Include" />
+              </e>
+              <e p="latin-map.d.ts" t="Include" />
+              <e p="ngx-bootstrap-typeahead.d.ts" t="Include" />
+              <e p="ngx-bootstrap-typeahead.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="typeahead-animations.d.ts" t="Include" />
+              <e p="typeahead-container.component.d.ts" t="Include" />
+              <e p="typeahead-match.class.d.ts" t="Include" />
+              <e p="typeahead-options.class.d.ts" t="Include" />
+              <e p="typeahead-utils.d.ts" t="Include" />
+              <e p="typeahead.config.d.ts" t="Include" />
+              <e p="typeahead.directive.d.ts" t="Include" />
+              <e p="typeahead.module.d.ts" t="Include" />
+            </e>
+            <e p="utils" t="Include">
+              <e p="bundles" t="Include">
+                <e p="ngx-bootstrap-utils.umd.js" t="Include" />
+                <e p="ngx-bootstrap-utils.umd.js.map" t="Include" />
+                <e p="ngx-bootstrap-utils.umd.min.js" t="Include" />
+                <e p="ngx-bootstrap-utils.umd.min.js.map" t="Include" />
+              </e>
+              <e p="decorators.d.ts" t="Include" />
+              <e p="esm2015" t="Include">
+                <e p="decorators.js" t="Include" />
+                <e p="facade" t="Include">
+                  <e p="browser.js" t="Include" />
+                </e>
+                <e p="linked-list.class.js" t="Include" />
+                <e p="ngx-bootstrap-utils.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="theme-provider.js" t="Include" />
+                <e p="trigger.class.js" t="Include" />
+                <e p="triggers.js" t="Include" />
+                <e p="utils.class.js" t="Include" />
+                <e p="warn-once.js" t="Include" />
+              </e>
+              <e p="esm5" t="Include">
+                <e p="decorators.js" t="Include" />
+                <e p="facade" t="Include">
+                  <e p="browser.js" t="Include" />
+                </e>
+                <e p="linked-list.class.js" t="Include" />
+                <e p="ngx-bootstrap-utils.js" t="Include" />
+                <e p="public_api.js" t="Include" />
+                <e p="theme-provider.js" t="Include" />
+                <e p="trigger.class.js" t="Include" />
+                <e p="triggers.js" t="Include" />
+                <e p="utils.class.js" t="Include" />
+                <e p="warn-once.js" t="Include" />
+              </e>
+              <e p="facade" t="Include">
+                <e p="browser.d.ts" t="Include" />
+              </e>
+              <e p="fesm2015" t="Include">
+                <e p="ngx-bootstrap-utils.js" t="Include" />
+                <e p="ngx-bootstrap-utils.js.map" t="Include" />
+              </e>
+              <e p="fesm5" t="Include">
+                <e p="ngx-bootstrap-utils.js" t="Include" />
+                <e p="ngx-bootstrap-utils.js.map" t="Include" />
+              </e>
+              <e p="linked-list.class.d.ts" t="Include" />
+              <e p="ngx-bootstrap-utils.d.ts" t="Include" />
+              <e p="ngx-bootstrap-utils.metadata.json" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="public_api.d.ts" t="Include" />
+              <e p="theme-provider.d.ts" t="Include" />
+              <e p="trigger.class.d.ts" t="Include" />
+              <e p="triggers.d.ts" t="Include" />
+              <e p="utils.class.d.ts" t="Include" />
+              <e p="warn-once.d.ts" t="Include" />
+            </e>
+          </e>
           <e p="protractor" t="IncludeRecursive" />
           <e p="rxjs" t="IncludeRecursive" />
           <e p="source-map" t="IncludeRecursive" />
@@ -202,6 +2074,9 @@
         <e p="README.md" t="Include" />
         <e p="src" t="Include">
           <e p="app" t="Include">
+            <e p="_gaurds" t="Include">
+              <e p="auth.guard.ts" t="Include" />
+            </e>
             <e p="_services" t="Include">
               <e p="alertify.service.spec.ts" t="Include" />
               <e p="alertify.service.ts" t="Include" />
@@ -220,6 +2095,24 @@
               <e p="home.component.spec.ts" t="Include" />
               <e p="home.component.ts" t="Include" />
             </e>
+            <e p="lists" t="Include">
+              <e p="lists.component.css" t="Include" />
+              <e p="lists.component.html" t="Include" />
+              <e p="lists.component.spec.ts" t="Include" />
+              <e p="lists.component.ts" t="Include" />
+            </e>
+            <e p="member-list" t="Include">
+              <e p="member-list.component.css" t="Include" />
+              <e p="member-list.component.html" t="Include" />
+              <e p="member-list.component.spec.ts" t="Include" />
+              <e p="member-list.component.ts" t="Include" />
+            </e>
+            <e p="messages" t="Include">
+              <e p="messages.component.css" t="Include" />
+              <e p="messages.component.html" t="Include" />
+              <e p="messages.component.spec.ts" t="Include" />
+              <e p="messages.component.ts" t="Include" />
+            </e>
             <e p="nav" t="Include">
               <e p="nav.component.css" t="Include" />
               <e p="nav.component.html" t="Include" />
@@ -232,6 +2125,7 @@
               <e p="register.component.spec.ts" t="Include" />
               <e p="register.component.ts" t="Include" />
             </e>
+            <e p="routes.ts" t="Include" />
             <e p="value" t="Include">
               <e p="value.component.css" t="Include" />
               <e p="value.component.html" t="Include" />
