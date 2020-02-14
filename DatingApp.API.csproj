@@ -24,7 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DatingAppSPA\src\app\member-list" />
     <Folder Include="DatingAppSPA\src\app\_gaurds" />
+    <Folder Include="DatingAppSPA\src\app\_models" />
     <Folder Include="Migrations" />
   </ItemGroup>
 

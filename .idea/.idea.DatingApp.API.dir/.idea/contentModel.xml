@@ -137,12 +137,18 @@
             <e p="_gaurds" t="Include">
               <e p="auth.guard.ts" t="Include" />
             </e>
+            <e p="_models" t="Include">
+              <e p="photo.ts" t="Include" />
+              <e p="user.ts" t="Include" />
+            </e>
             <e p="_services" t="Include">
               <e p="alertify.service.spec.ts" t="Include" />
               <e p="alertify.service.ts" t="Include" />
               <e p="auth.service.spec.ts" t="Include" />
               <e p="auth.service.ts" t="Include" />
               <e p="Error.interceptor.ts" t="Include" />
+              <e p="user.service.spec.ts" t="Include" />
+              <e p="user.service.ts" t="Include" />
             </e>
             <e p="app.component.css" t="Include" />
             <e p="app.component.html" t="Include" />
@@ -161,11 +167,20 @@
               <e p="lists.component.spec.ts" t="Include" />
               <e p="lists.component.ts" t="Include" />
             </e>
-            <e p="member-list" t="Include">
-              <e p="member-list.component.css" t="Include" />
-              <e p="member-list.component.html" t="Include" />
-              <e p="member-list.component.spec.ts" t="Include" />
-              <e p="member-list.component.ts" t="Include" />
+            <e p="member-list" t="Include" />
+            <e p="members" t="Include">
+              <e p="member-card" t="Include">
+                <e p="member-card.component.css" t="Include" />
+                <e p="member-card.component.html" t="Include" />
+                <e p="member-card.component.spec.ts" t="Include" />
+                <e p="member-card.component.ts" t="Include" />
+              </e>
+              <e p="member-list" t="Include">
+                <e p="member-list.component.css" t="Include" />
+                <e p="member-list.component.html" t="Include" />
+                <e p="member-list.component.spec.ts" t="Include" />
+                <e p="member-list.component.ts" t="Include" />
+              </e>
             </e>
             <e p="messages" t="Include">
               <e p="messages.component.css" t="Include" />
