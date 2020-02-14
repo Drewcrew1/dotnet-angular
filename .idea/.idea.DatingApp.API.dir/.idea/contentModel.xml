@@ -175,6 +175,12 @@
                 <e p="member-card.component.spec.ts" t="Include" />
                 <e p="member-card.component.ts" t="Include" />
               </e>
+              <e p="member-detail" t="Include">
+                <e p="member-detail.component.css" t="Include" />
+                <e p="member-detail.component.html" t="Include" />
+                <e p="member-detail.component.spec.ts" t="Include" />
+                <e p="member-detail.component.ts" t="Include" />
+              </e>
               <e p="member-list" t="Include">
                 <e p="member-list.component.css" t="Include" />
                 <e p="member-list.component.html" t="Include" />
