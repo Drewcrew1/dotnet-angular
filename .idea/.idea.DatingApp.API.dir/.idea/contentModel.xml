@@ -71,6 +71,7 @@
         <e p="node_modules\karma-jasmine" t="IncludeRecursive" />
         <e p="node_modules\karma-jasmine-html-reporter" t="IncludeRecursive" />
         <e p="node_modules\ngx-bootstrap" t="IncludeRecursive" />
+        <e p="node_modules\ngx-gallery" t="IncludeRecursive" />
         <e p="node_modules\protractor" t="IncludeRecursive" />
         <e p="node_modules\rxjs" t="IncludeRecursive" />
         <e p="node_modules\source-map" t="IncludeRecursive" />
@@ -141,6 +142,10 @@
               <e p="photo.ts" t="Include" />
               <e p="user.ts" t="Include" />
             </e>
+            <e p="_resolvers" t="Include">
+              <e p="member-detail.resolver.ts" t="Include" />
+              <e p="member-list.resolver.ts" t="Include" />
+            </e>
             <e p="_services" t="Include">
               <e p="alertify.service.spec.ts" t="Include" />
               <e p="alertify.service.ts" t="Include" />
@@ -180,6 +185,12 @@
                 <e p="member-detail.component.html" t="Include" />
                 <e p="member-detail.component.spec.ts" t="Include" />
                 <e p="member-detail.component.ts" t="Include" />
+              </e>
+              <e p="member-edit" t="Include">
+                <e p="member-edit.component.css" t="Include" />
+                <e p="member-edit.component.html" t="Include" />
+                <e p="member-edit.component.spec.ts" t="Include" />
+                <e p="member-edit.component.ts" t="Include" />
               </e>
               <e p="member-list" t="Include">
                 <e p="member-list.component.css" t="Include" />

@@ -20,6 +20,8 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="DatingAppSPA\src\app\routes.ts" />
+    <TypeScriptCompile Include="DatingAppSPA\src\app\_resolvers\member-detail.resolver.ts" />
+    <TypeScriptCompile Include="DatingAppSPA\src\app\_resolvers\member-list.resolver.ts" />
     <TypeScriptCompile Include="DatingAppSPA\src\app\_services\Error.interceptor.ts" />
   </ItemGroup>
 
