@@ -144,6 +144,7 @@
             </e>
             <e p="_resolvers" t="Include">
               <e p="member-detail.resolver.ts" t="Include" />
+              <e p="member-edit.resolver.ts" t="Include" />
               <e p="member-list.resolver.ts" t="Include" />
             </e>
             <e p="_services" t="Include">
