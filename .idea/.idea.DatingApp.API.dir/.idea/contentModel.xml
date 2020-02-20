@@ -137,6 +137,7 @@
           <e p="app" t="Include">
             <e p="_gaurds" t="Include">
               <e p="auth.guard.ts" t="Include" />
+              <e p="prevent-unsaved-changes.guard.ts" t="Include" />
             </e>
             <e p="_models" t="Include">
               <e p="photo.ts" t="Include" />
@@ -251,6 +252,7 @@
         <e p="UserForListDto.cs" t="Include" />
         <e p="UserForLoginDto.cs" t="Include" />
         <e p="UserForRegisterDto.cs" t="Include" />
+        <e p="UserForUpdateDto.cs" t="Include" />
       </e>
       <e p="Helpers" t="Include">
         <e p="AutoMapperProfiles.cs" t="Include" />

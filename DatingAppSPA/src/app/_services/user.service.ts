@@ -18,4 +18,7 @@ baseUrl = environment.apiUrl;
   getUser(id): Observable<User> {
     return this.http.get<User>(this.baseUrl + 'users/' + id);
   }
+  updateUser(id: number, user: User){
+    this.http.put(this.baseUrl + 'users/' + id, user);
+  }
 }
