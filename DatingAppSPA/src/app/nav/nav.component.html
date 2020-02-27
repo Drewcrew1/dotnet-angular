@@ -8,6 +8,9 @@
 </ul>
 
   <div *ngIf="loggedIn()" class="dropdown" dropdown>
+    <span class="mr-2">
+      <img alt="profpic" src="{{photoUrl}}">
+    </span>
 
     <a class="dropdown-toggle text-light" dropdownToggle>Welcome {{authService.decodedToken?.username}}</a>
     <div class="dropdown-menu" *dropdownMenu>
