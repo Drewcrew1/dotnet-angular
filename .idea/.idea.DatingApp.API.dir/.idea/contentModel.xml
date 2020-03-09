@@ -41,6 +41,17 @@
         </e>
         <e p="karma.conf.js" t="Include" />
         <e p="node_modules" t="Include">
+          <e p=".staging" t="Include">
+            <e p="bindings-80b05a9f" t="Include" />
+            <e p="file-uri-to-path-a5611159" t="Include" />
+            <e p="fsevents-1b787b26" t="Include" />
+            <e p="fsevents-53a9a4d7" t="Include" />
+            <e p="fsevents-66df3f18" t="Include" />
+            <e p="fsevents-6b3d4b24" t="Include" />
+            <e p="fsevents-99d826f0" t="Include" />
+            <e p="nan-82196daa" t="Include" />
+            <e p="time-ago-pipe-21babe04" t="Include" />
+          </e>
           <e p="@angular\animations" t="IncludeRecursive" />
           <e p="@angular\cli" t="IncludeRecursive" />
           <e p="@angular\common" t="IncludeRecursive" />
@@ -132,6 +143,31 @@
           <e p="protractor" t="IncludeRecursive" />
           <e p="rxjs" t="IncludeRecursive" />
           <e p="source-map" t="IncludeRecursive" />
+          <e p="time-ago-pipe" t="IncludeRecursive">
+            <e p="bundles" t="Include">
+              <e p="time-ago-pipe.umd.js" t="Include" />
+              <e p="time-ago-pipe.umd.js.map" t="Include" />
+              <e p="time-ago-pipe.umd.min.js" t="Include" />
+              <e p="time-ago-pipe.umd.min.js.map" t="Include" />
+            </e>
+            <e p="esm2015" t="Include">
+              <e p="time-ago-pipe.js" t="Include" />
+              <e p="time-ago-pipe.js.map" t="Include" />
+            </e>
+            <e p="esm5" t="Include">
+              <e p="time-ago-pipe.js" t="Include" />
+              <e p="time-ago-pipe.js.map" t="Include" />
+            </e>
+            <e p="LICENSE" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="README.md" t="Include" />
+            <e p="test" t="Include">
+              <e p="time-ago-pipe.spec.d.ts" t="Include" />
+            </e>
+            <e p="time-ago-pipe.d.ts" t="Include" />
+            <e p="time-ago-pipe.metadata.json" t="Include" />
+            <e p="time-ago.pipe.d.ts" t="Include" />
+          </e>
           <e p="ts-node" t="IncludeRecursive" />
           <e p="tslib" t="IncludeRecursive" />
           <e p="tslint" t="IncludeRecursive" />
@@ -198,6 +234,7 @@
               <e p="prevent-unsaved-changes.guard.ts" t="Include" />
             </e>
             <e p="_models" t="Include">
+              <e p="pagination.ts" t="Include" />
               <e p="photo.ts" t="Include" />
               <e p="user.ts" t="Include" />
             </e>
@@ -324,6 +361,10 @@
         <e p="AutoMapperProfiles.cs" t="Include" />
         <e p="CloudinarySettings.cs" t="Include" />
         <e p="Extensions.cs" t="Include" />
+        <e p="LogUserActivity.cs" t="Include" />
+        <e p="PagedList.cs" t="Include" />
+        <e p="PaginationHeader.cs" t="Include" />
+        <e p="UserParams.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20200212233059_InitMigrations.cs" t="Include" />
