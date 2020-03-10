@@ -11,7 +11,7 @@ import {AuthService} from "./_services/auth.service";
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import {ErrorInterceptorprovider} from "./_services/Error.interceptor";
-import {BsDropdownModule, TabsModule} from "ngx-bootstrap";
+import {BsDropdownModule, PaginationModule, TabsModule} from "ngx-bootstrap";
 import { MemberListComponent } from './members/member-list/member-list.component';
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -75,7 +75,8 @@ export class CustomHammerConfig extends HammerGestureConfig{
         whitelistedDomains: ["localhost:5000"],
         blacklistedRoutes: ["localhost:5000/api/auth"]
       }
-    })
+    }),
+    PaginationModule
   ],
   providers: [AuthService, ErrorInterceptorprovider,
     MemberDetailResolver,
