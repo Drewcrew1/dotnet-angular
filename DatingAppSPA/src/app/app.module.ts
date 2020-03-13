@@ -11,7 +11,7 @@ import {AuthService} from "./_services/auth.service";
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import {ErrorInterceptorprovider} from "./_services/Error.interceptor";
-import {BsDropdownModule, PaginationModule, TabsModule} from "ngx-bootstrap";
+import {BsDropdownModule, ButtonsModule, PaginationModule, TabsModule} from "ngx-bootstrap";
 import { MemberListComponent } from './members/member-list/member-list.component';
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -28,6 +28,7 @@ import {PreventUnsavedChangesGuard} from "./_gaurds/prevent-unsaved-changes.guar
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import {FileUploadModule} from "ng2-file-upload";
 import {TimeAgoPipe} from "time-ago-pipe";
+import {ListsResolver} from "./_resolvers/lists.resolver";
 
 
 export function tokenGetter(){
@@ -69,6 +70,7 @@ export class CustomHammerConfig extends HammerGestureConfig{
     RouterModule.forRoot(appRoutes),
     NgxGalleryModule,
     FileUploadModule,
+    ButtonsModule.forRoot(),
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
@@ -83,6 +85,7 @@ export class CustomHammerConfig extends HammerGestureConfig{
     MemberListResolver,
     MemberEditResolver,
     PreventUnsavedChangesGuard,
+    ListsResolver,
     {provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig}],
   bootstrap: [AppComponent]
 })

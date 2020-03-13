@@ -22,6 +22,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="DatingAppSPA\src\app\routes.ts" />
     <TypeScriptCompile Include="DatingAppSPA\src\app\_gaurds\prevent-unsaved-changes.guard.ts" />
+    <TypeScriptCompile Include="DatingAppSPA\src\app\_resolvers\lists.resolver.ts" />
     <TypeScriptCompile Include="DatingAppSPA\src\app\_resolvers\member-detail.resolver.ts" />
     <TypeScriptCompile Include="DatingAppSPA\src\app\_resolvers\member-edit.resolver.ts" />
     <TypeScriptCompile Include="DatingAppSPA\src\app\_resolvers\member-list.resolver.ts" />
