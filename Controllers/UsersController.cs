@@ -90,7 +90,7 @@ namespace DatingApp.API.Controllers
             like = new Like
             {
                 LikerId = id,
-                LikeeId = recipientuId
+                LikeeId = recipientId
             };
             _repo.Add<Like>(like);
 
